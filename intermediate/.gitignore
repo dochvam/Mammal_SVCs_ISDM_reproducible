@@ -1,0 +1,12 @@
+gridcell_covars.csv
+grid_traslator_wspecs.csv
+ct_datalist.RDS
+inat_cts.csv
+ct_datalist_lineage.RDS
+ct_datalist_nolineage.RDS
+gridcell_covars_lineage.csv
+gridcell_covars_nolineage.csv
+inat_cts_lineage.csv
+inat_cts_nolineage.csv
+grid_translator_wspecs_lineage.csv
+grid_translator_wspecs_nolineage.csv

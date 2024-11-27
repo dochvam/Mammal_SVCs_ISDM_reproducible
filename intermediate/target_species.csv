@@ -1,0 +1,37 @@
+taxon_genus,taxon_spec,common_name,num_obs,num_cameras,num_arrays,sci_name
+Alces,alces,Moose,651,175,22,Alces alces
+Ammospermophilus,leucurus,White-tailed Antelope Squirrel,1165,125,6,Ammospermophilus leucurus
+Antilocapra,americana,Pronghorn,1344,197,12,Antilocapra americana
+Canis,latrans,Coyote,24903,4198,249,Canis latrans
+Canis,lupus,Grey Wolf,209,105,14,Canis lupus
+Cervus,canadensis,Elk,4690,483,29,Cervus canadensis
+Dasypus,novemcinctus,Nine-banded Armadillo,5597,971,67,Dasypus novemcinctus
+Didelphis,virginiana,Virginia Opossum,19418,2608,175,Didelphis virginiana
+Erethizon,dorsatum,North American Porcupine,549,203,39,Erethizon dorsatum
+Glaucomys,sabrinus,Northern Flying Squirrel,702,132,30,Glaucomys sabrinus
+Glaucomys,volans,Mexican Flying Squirrel,440,122,35,Glaucomys volans
+Lepus,americanus,Snowshoe Hare,1574,201,30,Lepus americanus
+Lepus,californicus,Black-tailed Jackrabbit,8221,593,25,Lepus californicus
+Lynx,rufus,Bobcat,6299,1862,175,Lynx rufus
+Marmota,monax,Groundhog,1417,216,45,Marmota monax
+Mephitis,mephitis,Striped Skunk,5327,1124,147,Mephitis mephitis
+Odocoileus,hemionus,Mule Deer,25806,1963,68,Odocoileus hemionus
+Odocoileus,virginianus,White-tailed Deer,231362,6859,215,Odocoileus virginianus
+Otospermophilus,beecheyi,California Ground Squirrel,6499,199,8,Otospermophilus beecheyi
+Pecari,tajacu,Collared Peccary,1633,147,15,Pecari tajacu
+Pekania,pennanti,Fisher,365,214,34,Pekania pennanti
+Procyon,lotor,Northern Raccoon,80359,4743,226,Procyon lotor
+Puma,concolor,Puma,738,361,28,Puma concolor
+Sciurus,carolinensis,Eastern Gray Squirrel,182344,3807,169,Sciurus carolinensis
+Sciurus,griseus,Western Gray Squirrel,4068,398,14,Sciurus griseus
+Sciurus,niger,Eastern Fox Squirrel,35032,1115,89,Sciurus niger
+Sylvilagus,audubonii,Desert Cottontail,5015,199,21,Sylvilagus audubonii
+Sylvilagus,floridanus,Eastern Cottontail,15808,1411,144,Sylvilagus floridanus
+Sylvilagus,nuttallii,Mountain Cottontail,1064,122,9,Sylvilagus nuttallii
+Tamias,striatus,Eastern Chipmunk,17635,828,80,Tamias striatus
+Tamiasciurus,douglasii,Douglas's Squirrel,3906,380,21,Tamiasciurus douglasii
+Tamiasciurus,hudsonicus,Red Squirrel,10128,554,59,Tamiasciurus hudsonicus
+Taxidea,taxus,American Badger,327,195,33,Taxidea taxus
+Urocyon,cinereoargenteus,Grey Fox,8369,1168,103,Urocyon cinereoargenteus
+Ursus,americanus,American Black Bear,4720,1214,97,Ursus americanus
+Vulpes,vulpes,Red Fox,11178,1176,123,Vulpes vulpes

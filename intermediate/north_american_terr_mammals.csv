@@ -1,0 +1,1078 @@
+Common name,Sci name,Other common names,Other sci name,Order,Family,Countries,In US?,Big enough?,Use for iSDM,GBIF records 31-May-23,iNat records 31-May-23,Cam sites,Cam records,GBIF notes,iNat notes,Cam notes,Max confusion score?,Overlapping with confused spec?,Assigned to undergrads?
+Moose,Alces alces,Elk|Eurasian Elk|Caucasian Moose,Alces americanus,ARTIODACTYLA,CERVIDAE,Germany|Czech Republic|Slovakia|Belarus|Croatia|Hungary|Moldova|Romania|Poland|Ukraine|Norway|Sweden|Finland|Estonia|Latvia|Lithuania|Russia|Kazakhstan|Mongolia|China|Alaska|Canada|United States,Yes,Yes,Yes,845,15391,,,"Also lists ""Alces americanus"" but I replaced in R with ""Alces alces""",,,1,NA,TRUE
+Pronghorn,Antilocapra americana,Prongbuck|Antelope|Sonoran Pronghorn,,ARTIODACTYLA,ANTILOCAPRIDAE,Canada|United States|Mexico,Yes,Yes,Yes,495,8700,,1105,,,,1,NA,TRUE
+Muskox,Ovibos moschatus,,,ARTIODACTYLA,BOVIDAE,Alaska|Canada|Greenland,No,Yes,,41,386,,,,,,1,NA,TRUE
+Thinhorn Sheep,Ovis dalli,Alaskan White Sheep|Dall's Sheep|Stone's Sheep|Fannin's Sheep,,ARTIODACTYLA,BOVIDAE,Alaska|Canada,No,Yes,,196,733,0,0,,,,2,NA,TRUE
+Wapiti,Cervus canadensis,Elk|Alashan Wapiti (Elk)|Izubra|Manchurian Wapiti (Elk)|Merriam's Wapiti (Elk)|Tule Elk|Sichuan Shou|Macneill's Red Deer|Tibetan Shou|Rocky Mountain Wapiti (Elk)|Roosevelt's Wapiti (Elk)|Altai Wapiti (Elk),Cervus elaphus,ARTIODACTYLA,CERVIDAE,Kazakhstan|Kyrgyzstan|Russia|Mongolia|China|Bhutan|Canada|United States,Yes,Yes,Yes,912,19464,,,"Listed as ""Cervus elaphus""","Lists ""Cervus elaphus"" but they are in Texas (so not Elk)","Listed as both ""Cervus elaphus"" and ""Cervus canadensis""",1,NA,TRUE
+Collared Peccary,Dicotyles tajacu,Javelina,Pecari tajacu,ARTIODACTYLA,TAYASSUIDAE,United States|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina,Yes,Yes,Yes,600,6301,,,"Listed as ""Pecari tajacu""","Listed as ""Pecari tajacu""","Listed as ""Pecari tajacu""",2,NA,TRUE
+Mexican Red Brocket,Mazama temama,Central American Red Brocket,,ARTIODACTYLA,CERVIDAE,Mexico|Belize|Honduras|Guatemala|El Salvador|Nicaragua|Costa Rica|Panama|Colombia,No,Yes,,2,188,,,,,,NA,TRUE,TRUE
+Mule Deer,Odocoileus hemionus,Black-tailed Deer,,ARTIODACTYLA,CERVIDAE,Alaska|Canada|United States|Mexico,Yes,Yes,Yes,2083,69141,,,,,,2,NA,TRUE
+Yucatan Brown Brocket,Odocoileus pandora,,,ARTIODACTYLA,CERVIDAE,Mexico|Guatemala?|Belize?,No,Yes,,13,32,,,"Listed as ""Mazama pandora""",,,NA,NA,TRUE
+White-tailed Deer,Odocoileus virginianus,Florida Key Deer,,ARTIODACTYLA,CERVIDAE,Canada|United States|Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Brazil|Ecuador|Peru,Yes,Yes,Yes,4716,135326,,,No records in Canada for some reason,,,2,NA,TRUE
+Rocky Mountain Goat,Oreamnos americanus,Mountain Goat|Snow Goat|White Goat,,ARTIODACTYLA,BOVIDAE,Alaska|Canada|United States,Yes,Yes,Yes,770,3323,0,0,,,,1,NA,TRUE
+Bighorn Sheep,Ovis canadensis,"Mountain Sheep|Audubon Bighorn|California Bighorn|Desert Bighorn Sheep|Rocky Mountain Bighorn Sheep|Nelson's Bighorn Sheep|Mexican, Peninsular Bighorn Sheep|Weems's Bighorn Sheep|Sierra Nevada Bighorn Sheep",,ARTIODACTYLA,BOVIDAE,Canada|United States|Mexico,Yes,Yes,Yes,770,12114,0,0,,,,2,NA,TRUE
+Caribou,Rangifer tarandus,Reindeer,,ARTIODACTYLA,CERVIDAE,Norway|Finland|Russia|Mongolia|Alaska|Canada|Greenland|United States,Yes,Yes,Yes,1656,1748,0,0,,,,1,NA,TRUE
+White-lipped Peccary,Tayassu pecari,,,ARTIODACTYLA,TAYASSUIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,No,Yes,,53,72,,,,,,NA,TRUE,TRUE
+Wild boar,Sus scrofa,Wild pig | Feral pig | wild swine,,ARTIODACTYLA,SUIDAE,Canada|United States|Mexico,Yes,Yes,Yes,139,5488,,,,,,2,NA,TRUE
+Ringtail,Bassariscus astutus,,,CARNIVORA,PROCYONIDAE,United States|Mexico,Yes,Yes,Yes,743,2847,,,,,,1,NA,TRUE
+Striped Hog-nosed Skunk,Conepatus semistriatus,,,CARNIVORA,MEPHITIDAE,Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama|Venezuela|Colombia|Ecuador|Peru,No,Yes,,15,113,,,,,,NA,TRUE,TRUE
+Coyote,Canis latrans,Brush Wolf|Prairie Wolf,,CARNIVORA,CANIDAE,Alaska|Canada|United States|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,Yes,Yes,Yes,5333,44716,,,,,,3,TRUE,TRUE
+Gray Wolf,Canis lupus,Wolf|Timber Wolf|Tundra Wolf|Arctic Wolf,,CARNIVORA,CANIDAE,Portugal|Spain|France|Luxembourg|Belgium|Netherlands|Germany|Denmark|Switzerland|Liechtenstein|Italy|Austria|Czech Republic|Poland|Slovakia|Hungary|Slovenia|Croatia|Bosnia & Herzegovina|Serbia|Kosovo|Montenegro|Albania|North Macedonia|Greece|Bulgaria|Romania|Moldova|Ukraine|Belarus|Lithuania|Latvia|Estonia|Norway|Sweden|Finland|Russia|Georgia|Armenia|Azerbaijan|Turkey|Syria|Lebanon|Israel|Palestine|Jordan|Saudi Arabia|Qatar|United Arab Emirates|Oman|Yemen|Kuwait|Iraq|Iran|Turkmenistan|Uzbekistan|Kazakhstan|Kyrgyzstan|Tajikistan|Afghanistan|Pakistan|India|Nepal|Bhutan|Bangladesh?|Myanmar|China|Mongolia|North Korea|South Korea|Alaska|Canada|Greenland|United States|Mexico,Yes,Yes,Yes,5880,1625,,,,,,3,FALSE,TRUE
+Southern Spotted Skunk,Spilogale angustifrons,,,CARNIVORA,MEPHITIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica,No,Yes,,9,219,,,,,,NA,TRUE,TRUE
+Eastern Wolf,Canis lycaon,Algonquin Wolf|Eastern Timber Wolf|Great Lakes Wolf,,CARNIVORA,CANIDAE,Canada|United States,Yes,Yes,Yes,0,244,,,,,,NA,NA,TRUE
+Red Wolf,Canis rufus,,,CARNIVORA,CANIDAE,United States,Yes,Yes,Yes,0,34,,,,,,3,TRUE,TRUE
+American Hog-nosed Skunk,Conepatus leuconotus,,,CARNIVORA,MEPHITIDAE,United States|Mexico|Guatemala|Honduras|El Salvador|Nicaragua,Yes,Yes,Yes,497,739,,,,,,2,NA,TRUE
+Wolverine,Gulo gulo,Glutton|Skunk Bear,,CARNIVORA,MUSTELIDAE,United States|Canada|Alaska|Russia|China|Mongolia|Finland|Sweden|Norway|Estonia,Yes,Yes,Yes,2731,120,,,,,,1,NA,TRUE
+Pygmy Spotted Skunk,Spilogale pygmaea,,,CARNIVORA,MEPHITIDAE,Mexico,No,Yes,,23,28,,,,,,NA,TRUE,TRUE
+YucatÃ¡n Spotted Skunk,Spilogale yucatanensis,,,CARNIVORA,MEPHITIDAE,Mexico|Belize?|Guatemala?,No,Yes,,0,0,,,,,,NA,NA,TRUE
+Tayra,Eira barbara,,,CARNIVORA,MUSTELIDAE,Mexico|Belize|Honduras|Guatemala|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,No,Yes,,38,322,,,,,,NA,TRUE,TRUE
+Jaguarundi,Herpailurus yagouaroundi,,Puma yagouaroundi,CARNIVORA,FELIDAE,United States?|Mexico|Guatemala|El Salvador|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina|Uruguay?,Yes,Yes,Yes,69,242,,,"Listed as ""Puma yagouaroundi""","Listed as ""Herpailurus yagouaroundi"" in iNat",,1,NA,TRUE
+Ocelot,Leopardus pardalis,,,CARNIVORA,FELIDAE,United States|Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,Yes,Yes,Yes,112,824,,,,,,1,NA,TRUE
+Margay,Leopardus wiedii,,,CARNIVORA,FELIDAE,United States?|Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Uruguay|Argentina,Yes,Yes,Yes,56,212,,,,,,NA,TRUE,TRUE
+North American River Otter,Lontra canadensis,River Otter,,CARNIVORA,MUSTELIDAE,Alaska|Canada|United States|Mexico?,Yes,Yes,Yes,1376,11289,,,,,,1,NA,TRUE
+Greater Grison,Galictis vittata,,,CARNIVORA,MUSTELIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador?|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,No,Yes,,14,126,,,,,,NA,TRUE,TRUE
+Canadian Lynx,Lynx canadensis,,,CARNIVORA,FELIDAE,Alaska|Canada|United States,Yes,Yes,Yes,5116,631,,,,,,2,NA,TRUE
+Bobcat,Lynx rufus,Red Lynx|Bay Lynx|Cat Lynx,,CARNIVORA,FELIDAE,Canada|United States|Mexico,Yes,Yes,Yes,5468,17343,,,,,,2,NA,TRUE
+Neotropical Otter,Lontra longicaudis,,,CARNIVORA,MUSTELIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Uruguay|Argentina,No,Yes,,23,370,,,,,,NA,NA,TRUE
+Beringian Ermine,Mustela erminea,Stoat|Short-tailed Weasel,,CARNIVORA,MUSTELIDAE,Canada|Alaska|Ireland|United Kingdom|Portugal|Spain|France|Belgium|Luxembourg|Netherlands|Germany|Denmark|Switzerland|Liechtenstein|Italy|Austria|Czech Republic|Slovakia|Poland|Hungary|Slovenia|Croatia|Bosnia & Herzegovina|Serbia|Romania|Moldova|Ukraine|Belarus|Lithuania|Latvia|Estonia|Norway|Sweden|Finland|Russia|Kazakhstan|Uzbekistan|Kyrgyzstan|Tajikistan|Afghanistan|Pakistan|India|Mongolia|Japan,No,Yes,,1269,84,,,,,,3,TRUE,TRUE
+Haida Ermine,Mustela haidarum,,,CARNIVORA,MUSTELIDAE,Alaska|Canada,No,Yes,,0,4,,,,,,NA,NA,TRUE
+American Marten,Martes americana,American Pine Marten,,CARNIVORA,MUSTELIDAE,Alaska|Canada|United States,Yes,Yes,Yes,7179,715,,,,,,2,NA,TRUE
+Pacific Marten,Martes caurina,,Mustela caurina,CARNIVORA,MUSTELIDAE,Alaska|Canada|United States,Yes,Yes,Yes,349,492,,,,,"Listed as American marten - ""Martes americana""",NA,NA,TRUE
+Hooded Skunk,Mephitis macroura,,,CARNIVORA,MEPHITIDAE,United States|Mexico|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica,Yes,Yes,Yes,297,789,,,,,,3,TRUE,TRUE
+Striped Skunk,Mephitis mephitis,,,CARNIVORA,MEPHITIDAE,Canada|United States|Mexico,Yes,Yes,Yes,2529,15156,,,,,,3,TRUE,TRUE
+Black-footed Ferret,Mustela nigripes,,,CARNIVORA,MUSTELIDAE,United States,Yes,Yes,Yes,117,50,,,,,,1,NA,TRUE
+Least Weasel,Mustela nivalis,Weasel,,CARNIVORA,MUSTELIDAE,United States|Canada|Alaska|Morocco|Algeria|Tunisia|Portugal|Spain|France|United Kingdom|Luxembourg|Belgium|Netherlands|Germany|Denmark|Switzerland|Liechtenstein|Italy|Austria|Czech Republic|Poland|Slovakia|Hungary|Slovenia|Croatia|Bosnia & Herzegovina|Serbia|Kosovo|Montenegro|Albania|North Macedonia|Greece|Bulgaria|Romania|Moldova|Ukraine|Belarus|Lithuania|Latvia|Estonia|Norway|Sweden|Finland|Georgia|Armenia|Azerbaijan|Turkey|Syria|Lebanon|Egypt|Iraq|Iran|Kazakhstan|Uzbekistan|Turkmenistan|Kyrgyzstan|Tajikistan|Afghanistan|China|Mongolia|North Korea|South Korea|Japan|Taiwan|Vietnam,Yes,Yes,Yes,393,71,,,,,,2,NA,TRUE
+Cacomistle,Bassariscus sumichrasti,,,CARNIVORA,PROCYONIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama,No,Yes,,35,57,,,,,,NA,TRUE,TRUE
+American Ermine,Mustela richardsonii,Stoat,Mustela erminea,CARNIVORA,MUSTELIDAE,Greenland|United States|Canada|Alaska,Yes,Yes,Yes,3043,1060,,,"Listed as ""Mustela erminea""",Lists both 'richardsonii' and 'erminea',"Listed as ""Mustela erminea""",3,TRUE,TRUE
+Kinkajou,Potos flavus,,,CARNIVORA,PROCYONIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,No,Yes,,107,356,,,,,,NA,TRUE,TRUE
+White-nosed Coati,Nasua narica,Coatimundi,,CARNIVORA,PROCYONIDAE,United States|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia,Yes,Yes,Yes,427,8482,,,,,,1,NA,TRUE
+Cozumel Raccoon,Procyon pygmaeus,Pygmy Raccoon,,CARNIVORA,PROCYONIDAE,Mexico,No,Yes,,0,146,,,,,,NA,TRUE,TRUE
+Long-tailed Weasel,Neogale frenata,,Mustela frenata,CARNIVORA,MUSTELIDAE,Canada|United States|Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador|Peru|Brazil|Bolivia,Yes,Yes,Yes,2119,2055,,,"Listed as ""Mustela frenata""",,"Listed as ""Mustela frenata""",3,TRUE,TRUE
+American Mink,Neogale vison,,"Mustela vison, Neovison vison",CARNIVORA,MUSTELIDAE,Alaska|Canada|United States,Yes,Yes,Yes,3917,6642,,,"Listed as ""Mustela vison""",,"Listed as ""Neovison vison""",2,NA,TRUE
+Polar Bear,Ursus maritimus,White Bear|Nanook|Iceland,,CARNIVORA,URSIDAE,Canada|Alaska|Greenland|Norway|Russia|Iceland?,No,Yes,,73,673,,,,,,1,NA,TRUE
+Jaguar,Panthera onca,,,CARNIVORA,FELIDAE,United States|Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,Yes,Yes,Yes,171,967,,,,,,1,NA,TRUE
+Fisher,Pekania pennanti,Pennant Marten,Martes pennanti,CARNIVORA,MUSTELIDAE,Canada|Alaska|United States,Yes,Yes,Yes,1452,1727,,,,,"Listed as ""Pekania pennanti"" AND ""Martes Pennanti"" AND ""Martes pennanti""",2,NA,TRUE
+Northern Raccoon,Procyon lotor,Common Raccoon,,CARNIVORA,PROCYONIDAE,Canada|United States|Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,Yes,Yes,Yes,3226,58858,,,,,,1,NA,TRUE
+Puma,Puma concolor,Cougar|Mountain Lion|Catamount|Panther|Florida Panther,,CARNIVORA,FELIDAE,Canada|United States|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Uruguay?|Chile|Argentina,Yes,Yes,Yes,1592,3740,,,,,,1,NA,TRUE
+Western Spotted Skunk,Spilogale gracilis,,,CARNIVORA,MEPHITIDAE,Canada|United States|Mexico,Yes,Yes,Yes,843,428,,,,,,3,TRUE,TRUE
+Plains Spotted Skunk,Spilogale interrupta,,,CARNIVORA,MEPHITIDAE,Canada|United States|Mexico,Yes,Yes,Yes,0,0,,,,,,NA,NA,TRUE
+Arctic Fox,Vulpes lagopus,Polar Fox,,CARNIVORA,CANIDAE,Norway|Sweden|Finland|Russia|Iceland|Greenland|Canada|Alaska,No,Yes,,333,351,,,,,,1,NA,TRUE
+Desert Spotted Skunk,Spilogale leucoparia,,,CARNIVORA,MEPHITIDAE,United States|Mexico,Yes,Yes,Yes,0,0,,,,,,NA,NA,TRUE
+Alleghanian Spotted Skunk,Spilogale putorius,Eastern Spotted Skunk,,CARNIVORA,MEPHITIDAE,United States,Yes,Yes,Yes,548,156,,,,,,3,TRUE,TRUE
+American Badger,Taxidea taxus,,,CARNIVORA,MUSTELIDAE,Canada|United States|Mexico,Yes,Yes,Yes,1352,2173,,,,,,1,NA,TRUE
+Northern Gray Fox,Urocyon cinereoargenteus,Tree Fox,,CARNIVORA,CANIDAE,Canada|United States|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela,Yes,Yes,Yes,1870,13949,,,,,,4,FALSE,TRUE
+Island Fox,Urocyon littoralis,Island Gray Fox|Channel Islands Fox,,CARNIVORA,CANIDAE,United States,Yes,Yes,Yes,180,0,,,,,,4,FALSE,TRUE
+American Black Bear,Ursus americanus,,,CARNIVORA,URSIDAE,Alaska|Canada|United States|Mexico,Yes,Yes,Yes,2471,24822,,,,,,2,NA,TRUE
+Brown Bear,Ursus arctos,Grizzly Bear|Kodiak Bear,,CARNIVORA,URSIDAE,Afghanistan|Albania|Armenia|Azerbaijan|Belarus|Bosnia & Herzegovina|Bulgaria|Canada|China|Croatia|Estonia|Finland|France|Georgia|Greece|India|Iran|Iraq|Italy|Japan|Kazakhstan|North Korea|Kyrgyzstan|Latvia|Mongolia|Montenegro|Nepal|North Macedonia|Norway|Pakistan|Poland|Romania|Russia|Serbia|Kosovo|Slovakia|Slovenia|Spain|Sweden|Tajikistan|Turkey|Ukraine|United States|Uzbekistan|Lebanon|Syria|Bhutan?|Austria?|Czech Republic?|Switzerland?|Turkmenistan?,Yes,Yes,Yes,1755,3830,,,,,,2,NA,TRUE
+Kit Fox,Vulpes macrotis,Desert Fox,,CARNIVORA,CANIDAE,United States|Mexico,Yes,Yes,Yes,1295,429,,,,,,3,TRUE,TRUE
+Swift Fox,Vulpes velox,,,CARNIVORA,CANIDAE,Canada|United States,Yes,Yes,Yes,724,136,,,,,,3,TRUE,TRUE
+Red Fox,Vulpes vulpes,Silver Fox|Cross Fox,,CARNIVORA,CANIDAE,Morocco|Algeria|Tunisia|Libya|Egypt|Ireland|United Kingdom|Portugal|Spain|France|Luxembourg|Netherlands|Belgium|Germany|Denmark|Switzerland|Liechtenstein|Italy|Austria|Czech Republic|Poland|Slovakia|Hungary|Slovenia|Croatia|Bosnia & Herzegovina|Serbia|Kosovo|Albania|Montenegro|North Macedonia|Greece|Bulgaria|Romania|Moldova|Ukraine|Belarus|Lithuania|Latvia|Estonia|Norway|Sweden|Finland|Russia|Georgia|Armenia|Azerbaijan|Turkey|Syria|Lebanon|Israel|Palestine|Jordan|Saudi Arabia|Oman|Yemen|United Arab Emirates|Qatar|Iraq|Kuwait|Iran|Turkmenistan|Uzbekistan|Kazakhstan|Kyrgyzstan|Tajikistan|Afghanistan|Pakistan|Mongolia|China|North Korea|South Korea|Japan|India|Nepal|Bhutan|Bangladesh|Myanmar|Alaska|Canada|Greenland|United States,Yes,Yes,Yes,2565,23649,,,,,,2,NA,TRUE
+Thomas's Sac-winged Bat,Balantiopteryx io,Least Sac-winged Bat,,CHIROPTERA,EMBALLONURIDAE,Mexico|Guatemala|Belize,,No,,,,,,,,,NA,NA,FALSE
+Gray Sac-winged Bat,Balantiopteryx plicata,Peters's Sac-winged Bat,,CHIROPTERA,EMBALLONURIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Thomas's Shaggy Bat,Centronycteris centralis,,,CHIROPTERA,EMBALLONURIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Venezuela|Colombia|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Northern Ghost Bat,Diclidurus albus,White Ghost Bat,,CHIROPTERA,EMBALLONURIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay,,No,,,,,,,,,NA,NA,FALSE
+Greater Dog-like Bat,Peropteryx kappleri,,,CHIROPTERA,EMBALLONURIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Lesser Dog-like Bat,Peropteryx macrotis,,,CHIROPTERA,EMBALLONURIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay,,No,,,,,,,,,NA,NA,FALSE
+Proboscis Bat,Rhynchonycteris naso,Brazilian Long-nosed Bat|Long-nosed Proboscis Bat|River Bat|Sharp-nosed Bat,,CHIROPTERA,EMBALLONURIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Greater Sac-winged Bat,Saccopteryx bilineata,Greater White-lined Bat,,CHIROPTERA,EMBALLONURIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Lesser Sac-winged Bat,Saccopteryx leptura,Brown White-lined Bat|Lesser White-lined Bat,,CHIROPTERA,EMBALLONURIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Peters's Ghost-faced Bat,Mormoops megalophylla,Leaf-chinned Bat|Old-man Bat,,CHIROPTERA,MORMOOPIDAE,United States|Mexico|Belize|Honduras|Guatemala|El Salvador|Nicaragua|Colombia|Ecuador|Peru|Venezuela|Trinidad & Tobago|Aruba|Bonaire|CuraÃ§ao,,No,,,,,,,,,NA,NA,FALSE
+Thomas's Naked-backed Bat,Pteronotus fulvus,,,CHIROPTERA,MORMOOPIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Big Naked-backed Bat,Pteronotus gymnonotus,,,CHIROPTERA,MORMOOPIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Brazil|Ecuador?|Peru|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Mesoamerican Common Mustached Bat,Pteronotus mesoamericanus,Mesoamerican Mustached Bat|Smith's Common Mustached Bat,,CHIROPTERA,MORMOOPIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Mexican Common Mustached Bat,Pteronotus mexicanus,Mexican Mustached Bat,,CHIROPTERA,MORMOOPIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Dobson's Lesser Mustached Bat,Pteronotus psilotis,Dobson's Mustached Bat,,CHIROPTERA,MORMOOPIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Lesser Bulldog Bat,Noctilio albiventris,,,CHIROPTERA,NOCTILIONIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Ecuador|Venezuela|Guyana|Suriname|French Guiana|Peru|Brazil|Bolivia|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Greater Bulldog Bat,Noctilio leporinus,Fisherman Bat,,CHIROPTERA,NOCTILIONIDAE,Anguilla|Antigua & Barbuda|Aruba|Bahamas|Barbados|Cuba|Dominica|Dominican Republic|Haiti|Grenada|Guadeloupe|Jamaica|Martinique|Montserrat|Puerto Rico|Saint Kitts & Nevis|Saint Lucia|Saint Martin|Saint Vincent & the Grenadines|Trinidad & Tobago|United States Virgin Islands|British Virgin Islands|Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Seba's Short-tailed Bat,Carollia perspicillata,Common Short-tailed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Grenada?|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Sowell's Short-tailed Bat,Carollia sowelli,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Gray Short-tailed Bat,Carollia subrufa,Hahn's Short-tailed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Common Vampire Bat,Desmodus rotundus,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Uruguay|Argentina|Chile,,No,,,,,,,,,NA,NA,FALSE
+White-winged Vampire Bat,Diaemus youngii,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Hairy-legged Vampire Bat,Diphylla ecaudata,,,CHIROPTERA,PHYLLOSTOMIDAE,United States?|Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador|Peru|Bolivia|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Antillean Fruit-eating Bat,Brachyphylla cavernarum,,,CHIROPTERA,PHYLLOSTOMIDAE,Puerto Rico|British Virgin Islands|United States Virgin Islands|Antigua & Barbuda|Barbados|Dominica|Guadeloupe|Martinique|Montserrat|Saint Kitts & Nevis|Saint Lucia|Saint Vincent & the Grenadines,,No,,,,,,,,,NA,NA,FALSE
+Geoffroy's Tailless Bat,Anoura geoffroyi,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Grenada|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Godman's Long-tailed Bat,Choeroniscus godmani,Godman's Long-tongued Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Mexican Long-tongued Bat,Choeronycteris mexicana,,,CHIROPTERA,PHYLLOSTOMIDAE,United States|Mexico|Guatemala|El Salvador|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Underwood's Long-tongued Bat,Hylonycteris underwoodi,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Dark Long-tongued Bat,Lichonycteris obscura,Dark Brown Long-nosed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador,,No,,,,,,,,,NA,NA,FALSE
+Banana Bat,Musonycteris harrisoni,Colima Long-nosed Bat|Trumpet-nosed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Commissaris's Long-tongued Bat,Glossophaga commissarisi,Brown Long-tongued Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Gray's Long-tongued Bat,Glossophaga leachii,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Western Long-tongued Bat,Glossophaga morenoi,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Merriam's Long-tongued Bat,Glossophaga mutica,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia,,No,,,,,,,,,NA,NA,FALSE
+Greater Long-nosed Bat,Leptonycteris nivalis,Mexican Long-nosed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Lesser Long-nosed Bat,Leptonycteris yerbabuenae,Sanborn's Long-nosed Bat|Tequila Bat,,CHIROPTERA,PHYLLOSTOMIDAE,United States|Mexico|Guatemala|El Salvador|Honduras|Nicaragua,,No,,,,,,,,,NA,NA,FALSE
+Tricolored Big-eared Bat,Glyphonycteris sylvestris,Brown Small-eared Bat|Little Graybeard Bat|Tricolored Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Ecuador|Peru|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Niceforo's Big-eared Bat,Trinycteris nicefori,Niceforo's Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Brazil|Ecuador|Peru|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Common Sword-nosed Bat,Lonchorhina aurita,Tomes's Sword-nosed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Californian Leaf-nosed Bat,Macrotus californicus,,,CHIROPTERA,PHYLLOSTOMIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Waterhouse's Leaf-nosed Bat,Macrotus waterhousii,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Bahamas|Turks & Caicos Islands|Cuba|Jamaica|Haiti|Dominican Republic,,No,,,,,,,,,NA,NA,FALSE
+Orange-throated Bat,Lampronycteris brachyotis,Yellow-throated Bat|Yellow-throated Big-eared Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Brazil|Ecuador|Peru|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Common Big-eared Bat,Micronycteris microtis,Little Big-eared Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Brazil|Bolivia|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Schmidts' Big-eared Bat,Micronycteris schmidtorum,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|French Guiana|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Long-legged Bat,Macrophyllum macrophyllum,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Fringe-lipped Bat,Trachops cirrhosus,Frog-eating Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Keenan's Hairy-nosed Bat,Gardnerycteris keenani,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador|Peru,,No,,,,,,,,,NA,NA,FALSE
+Davis's Round-eared Bat,Lophostoma evotis,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Mesoamerican Round-eared Bat,Lophostoma nicaraguae,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador,,No,,,,,,,,,NA,NA,FALSE
+Pale-faced Bat,Phylloderma stenops,Spear-nosed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Trinidad & Tobago|Ecuador|Peru|Bolivia|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Pale Spear-nosed Bat,Phyllostomus discolor,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina?,,No,,,,,,,,,NA,NA,FALSE
+Northern Stripe-headed Round-eared Bat,Tonatia bakeri,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador,,No,,,,,,,,,NA,NA,FALSE
+Woolly False Vampire Bat,Chrotopterus auritus,Big-eared Woolly Bat|Great Woolly Bat|Peters's Woolly False Vampire Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Cozumelan Golden Bat,Mimon cozumelae,Cozumel Spear-nosed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia,,No,,,,,,,,,NA,NA,FALSE
+Spectral Bat,Vampyrum spectrum,Great False Vampire Bat|Great Spectral Bat|Linnaeus's False Vampire Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Hairy Fruit-eating Bat,Artibeus hirsutus,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Intermediate Fruit-eating Bat,Artibeus intermedius,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Honduras|El Salvador|Belize|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Jamaican Fruit-eating Bat,Artibeus jamaicensis,Jamaican Artibeus,,CHIROPTERA,PHYLLOSTOMIDAE,United States|Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Bahamas|Cayman Islands|Jamaica|Haiti|Dominican Republic|Cuba|Puerto Rico|British Virgin Islands|Antigua & Barbuda|Anguilla|Barbados|Dominica|Grenada|Guadeloupe|Martinique|Montserrat|Saint Kitts & Nevis|Saint Lucia|Saint Vincent & the Grenadines|Aruba,,No,,,,,,,,,NA,NA,FALSE
+Great Fruit-eating Bat,Artibeus lituratus,Great Artibeus,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|El Salvador?|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Saint Vincent & the Grenadines|Grenada|Barbados|Martinique|Saint Lucia|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Wrinkle-faced Bat,Centurio senex,Lattice-winged Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago,,No,,,,,,,,,NA,NA,FALSE
+Salvin's Big-eyed Bat,Chiroderma salvini,Dwarf Big-eyed Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador|Peru|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Mexican Big-eyed Bat,Chiroderma scopaeum,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Hairy Big-eyed Bat,Chiroderma villosum,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Aztec Fruit-eating Bat,Dermanura azteca,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Pygmy Fruit-eating Bat,Dermanura phaeotis,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Ecuador?|Peru?|Venezuela?|Guyana?|Brazil?,,No,,,,,,,,,NA,NA,FALSE
+Toltec Fruit-eating Bat,Dermanura tolteca,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Thomas's Fruit-eating Bat,Dermanura watsoni,Watson's Fruit-eating Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Velvety Fruit-eating Bat,Enchisthenes hartii,Hart's Little Fruit Bat,,CHIROPTERA,PHYLLOSTOMIDAE,United States?|Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Ecuador|Peru|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Cuban Fig-eating Bat,Phyllops falcatus,Cuban White-shouldered Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Cuba|Cayman Islands|Haiti|Dominican Republic,,No,,,,,,,,,NA,NA,FALSE
+Heller's Broad-nosed Bat,Platyrrhinus helleri,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador,,No,,,,,,,,,NA,NA,FALSE
+Red Fruit Bat,Stenoderma rufum,Red Fig-eating Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Puerto Rico|United States Virgin Islands,,No,,,,,,,,,NA,NA,FALSE
+Pacific Tent-making Bat,Uroderma convexum,Arcuate Tent-making Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador,,No,,,,,,,,,NA,NA,FALSE
+Davis's Tent-making Bat,Uroderma davisi,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|El Salvador|Honduras?,,No,,,,,,,,,NA,NA,FALSE
+Brown Tent-making Bat,Uroderma magnirostrum,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Nicaragua|Panama|Colombia|Venezuela|Guyana|Brazil|Ecuador|Peru|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Northern Little Yellow-eared Bat,Vampyressa thyone,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Colombia|Venezuela|Guyana|French Guiana|Ecuador|Peru|Bolivia|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Great Stripe-faced Bat,Vampyrodes major,Greater Stripe-faced Bat,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador?|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia,,No,,,,,,,,,NA,NA,FALSE
+Honduran Yellow-shouldered Bat,Sturnira hondurensis,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua,,No,,,,,,,,,NA,NA,FALSE
+Northern Yellow-shouldered Bat,Sturnira parvidens,,,CHIROPTERA,PHYLLOSTOMIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Spix's Disk-winged Bat,Thyroptera tricolor,,,CHIROPTERA,THYROPTERIDAE,Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Mexican Dog-faced Bat,Cynomops mexicanus,,,CHIROPTERA,MOLOSSIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Black Bonneted Bat,Eumops auripendulus,Shaw's Bonneted Bat|Shaw's Mastiff Bat,,CHIROPTERA,MOLOSSIDAE,Jamaica|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Fierce Bonneted Bat,Eumops ferox,Chestnut Mastiff Bat|Wild Bonneted Bat,,CHIROPTERA,MOLOSSIDAE,Cuba|Jamaica|Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Florida Bonneted Bat,Eumops floridanus,,,CHIROPTERA,MOLOSSIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Sanborn's Bonneted Bat,Eumops hansae,,,CHIROPTERA,MOLOSSIDAE,Mexico|Belize|Honduras|Costa Rica|Panama|Venezuela|Guyana|French Guiana|Ecuador|Peru|Brazil|Bolivia,,No,,,,,,,,,NA,NA,FALSE
+Northern Dwarf Bonneted Bat,Eumops nanus,Dwarf Bonneted Bat,,CHIROPTERA,MOLOSSIDAE,Mexico|Honduras|Nicaragua|Panama|Colombia|Venezuela|Guyana|Peru,,No,,,,,,,,,NA,NA,FALSE
+Western Bonneted Bat,Eumops perotis,Greater Bonneted Bat|Greater Mastiff Bat|Western Mastiff Bat,,CHIROPTERA,MOLOSSIDAE,United States|Mexico|Venezuela|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Underwood's Bonneted Bat,Eumops underwoodi,,,CHIROPTERA,MOLOSSIDAE,United States|Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Alvarez's Mastiff Bat,Molossus alvarezi,Alvarez's Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Peru|Trinidad & Tobago,,No,,,,,,,,,NA,NA,FALSE
+Aztec Mastiff Bat,Molossus aztecus,Aztec Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,Mexico|Guatemala|Honduras|Nicaragua|Venezuela|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Coiban Mastiff Bat,Molossus coibensis,Coiban Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,Mexico|El Salvador|Honduras|Costa Rica|Panama|Colombia|Venezuela|Guyana|French Guiana|Ecuador|Peru|Brazil,,No,,,,,,,,,NA,NA,FALSE
+Pallas's Mastiff Bat,Molossus molossus,Pallas's Free-tailed Bat|Velvety Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,United States|Puerto Rico|British Virgin Islands|United States Virgin Islands|Antigua & Barbuda|Anguilla|Saint Kitts & Nevis|Montserrat|Guadeloupe|Dominica|Martinique|Saint Lucia|Saba|Sint Eustatius|Saint Vincent & the Grenadines|Barbados|Grenada|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Bonaire|CuraÃ§ao|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina|Uruguay,,No,,,,,,,,,NA,NA,FALSE
+Northern Black Mastiff Bat,Molossus nigricans,,,CHIROPTERA,MOLOSSIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Miller's Mastiff Bat,Molossus pretiosus,Miller's Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,Mexico|Honduras|Nicaragua|Costa Rica|Colombia|Venezuela|Guyana|Brazil|Trinidad & Tobago,,No,,,,,,,,,NA,NA,FALSE
+Sinaloan Mastiff Bat,Molossus sinaloae,Allen's Mastiff Bat|Sinaloan Free-tailed Bat|Trinidadian Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Peale's Free-tailed Bat,Nyctinomops aurispinosus,,,CHIROPTERA,MOLOSSIDAE,Mexico|Guatemala|Honduras|Colombia|Venezuela|Peru|Bolivia|Brazil|Ecuador?,,No,,,,,,,,,NA,NA,FALSE
+Pocketed Free-tailed Bat,Nyctinomops femorosaccus,,,CHIROPTERA,MOLOSSIDAE,United States|Mexico|Guatemala,,No,,,,,,,,,NA,NA,FALSE
+Broad-eared Free-tailed Bat,Nyctinomops laticaudatus,Broad-eared Bat|Broad-tailed Bat|Espirito Santo Free-tailed Bat|Geoffroy's Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,Cuba|Mexico|Guatemala|Belize|Honduras|El Salvador|Panama|Colombia|Ecuador|Peru|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Brazil|Bolivia|Paraguay|Uruguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Big Free-tailed Bat,Nyctinomops macrotis,,,CHIROPTERA,MOLOSSIDAE,Canada|United States|Mexico|Guatemala|Cuba|Jamaica|Haiti|Dominican Republic|Colombia|Venezuela|Guyana|Suriname|French Guiana?|Ecuador|Peru|Bolivia|Brazil|Paraguay|Uruguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Big Crested Mastiff Bat,Promops centralis,Big-crested Free-tailed Bat|Crested Mastiff Bat,,CHIROPTERA,MOLOSSIDAE,Mexico|Guatemala|Honduras|Nicaragua|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Brazilian Free-tailed Bat,Tadarida brasiliensis,Mexican Free-tailed Bat,,CHIROPTERA,MOLOSSIDAE,United States|Mexico|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Bahamas|Cuba|Cayman Islands|Jamaica|Haiti|Dominican Republic|Anguilla|Antigua & Barbuda|Aruba|Barbados|Bonaire|Sint Eustatius|Saba|Dominica|Grenada|Guadeloupe|Martinique|Montserrat|Saint BarthÃ©lemy|Saint Kitts & Nevis|Saint Lucia|Saint Martin|Saint Vincent & the Grenadines|British Virgin Islands|United States Virgin Islands|Colombia|Venezuela|Trinidad & Tobago|Ecuador|Peru|Bolivia|Brazil|Paraguay|Uruguay|Argentina|Chile|Falkland Islands (Malvinas),,No,,,,,,,,,NA,NA,FALSE
+Woolly Funnel-eared Bat,Natalus lanatus,,,CHIROPTERA,NATALIDAE,Mexico|Nicaragua|Honduras|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Mexican Funnel-eared Bat,Natalus mexicanus,Mexican Greater Funnel-eared Bat,,CHIROPTERA,NATALIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia,,No,,,,,,,,,NA,NA,FALSE
+Silver-tipped Myotis,Myotis albescens,,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Uruguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+South-western Myotis,Myotis auriculus,,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+South-eastern Myotis,Myotis austroriparius,,,CHIROPTERA,VESPERTILIONIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+California Myotis,Myotis californicus,Californian Myotis,,CHIROPTERA,VESPERTILIONIDAE,Alaska|Canada|United States|Mexico|Guatemala,,No,,,,,,,,,NA,NA,FALSE
+Carter's Myotis,Myotis carteri,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Western Small-footed Myotis,Myotis ciliolabrum,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Elegant Myotis,Myotis elegans,,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Long-eared Myotis,Myotis evotis,Western Long-eared Bat|Western Long-eared Myotis,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Findley's Myotis,Myotis findleyi,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Cinnamon Myotis,Myotis fortidens,,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,NA,FALSE
+Gray Myotis,Myotis grisescens,Gray Bat,,CHIROPTERA,VESPERTILIONIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Keen's Myotis,Myotis keenii,,,CHIROPTERA,VESPERTILIONIDAE,Alaska|Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Eastern Small-footed Myotis,Myotis leibii,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Little Brown Myotis,Myotis lucifugus,Little Brown Bat,,CHIROPTERA,VESPERTILIONIDAE,Alaska|Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Common Black Myotis,Myotis nigricans,,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Arizona Myotis,Myotis occultus,,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Hairy-legged Myotis,Myotis pilosatibialis,,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago,,No,,,,,,,,,NA,NA,FALSE
+Flat-headed Myotis,Myotis planiceps,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Myotis,Myotis septentrionalis,Northern Bat|Northern Long-eared Bat|Northern Long-eared Myotis,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Indiana Myotis,Myotis sodalis,Cluster Bat|Indiana Bat|Social Bat,,CHIROPTERA,VESPERTILIONIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Fringed Myotis,Myotis thysanodes,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Cave Myotis,Myotis velifer,,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico|Guatemala|El Salvador|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Fish-eating Myotis,Myotis vivesi,Fish-eating Bat,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Long-legged Myotis,Myotis volans,Hairy-winged Myotis,,CHIROPTERA,VESPERTILIONIDAE,Alaska|Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Yuma Myotis,Myotis yumanensis,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Pallid Bat,Antrozous pallidus,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico|Cuba,,No,,,,,,,,,NA,NA,FALSE
+Van Gelder's Bat,Bauerus dubiaquercus,,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Yucatan Yellow Bat,Rhogeessa aenea,,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|Belize,,No,,,,,,,,,NA,NA,FALSE
+Allen's Yellow Bat,Rhogeessa alleni,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Bickham's Yellow Bat,Rhogeessa bickhami,Bickham's Little Yellow Bat,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Genoways's Yellow Bat,Rhogeessa genowaysi,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Slender Yellow Bat,Rhogeessa gracilis,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Least Yellow Bat,Rhogeessa mira,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Little Yellow Bat,Rhogeessa parvula,Little Yellow Bat,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Black-winged Little Yellow Bat,Rhogeessa tumida,Central American Yellow Bat,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Brazilian Serotine,Eptesicus brasiliensis,Brazilian Brown Bat,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Uruguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Chiriquinan Serotine,Eptesicus chiriquinus,Chiriqui Brown Bat,,CHIROPTERA,VESPERTILIONIDAE,Mexico?|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Argentine Serotine,Eptesicus furinalis,Argentine Brown Bat|Argentinian Brown Bat,,CHIROPTERA,VESPERTILIONIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Guyana|Suriname|French Guiana|Ecuador|Peru|Bolivia|Brazil|Paraguay|Uruguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Big Brown Bat,Eptesicus fuscus,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador|Bahamas|Cayman Islands|Cuba|Jamaica|Haiti|Dominican Republic|Puerto Rico|Dominica|Barbados|Guadeloupe,,No,,,,,,,,,NA,NA,FALSE
+Silver-haired Bat,Lasionycteris noctivagans,Black Bat|Silver Bat|Silver-black Bat,,CHIROPTERA,VESPERTILIONIDAE,Alaska|Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Hoary Bat,Aeorestes cinereus,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico|Guatemala|Hawai'i,,No,,,,,,,,,NA,NA,FALSE
+Southern Yellow Bat,Dasypterus ega,,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|Ecuador|Peru|Brazil|Bolivia|Paraguay|Uruguay|Argentina,,No,,,,,,,,,NA,NA,FALSE
+Northern Yellow Bat,Dasypterus intermedius,Big Yellow Bat|Eastern Yellow Bat|Florida Yellow Bat|Greater Yellow Bat,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico|Belize|Honduras|Guatemala|El Salvador|Costa Rica,,No,,,,,,,,,NA,NA,FALSE
+Western Yellow Bat,Dasypterus xanthinus,,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Eastern Red Bat,Lasiurus borealis,Red Bat,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Desert Red Bat,Lasiurus frantzii,Western Red Bat,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,NA,FALSE
+Seminole Bat,Lasiurus seminolus,Mahogany Bat,,CHIROPTERA,VESPERTILIONIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+North American Evening Bat,Nycticeius humeralis,Black-shouldered Bat|Twilight Bat,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Canyon Bat,Parastrellus hesperus,Western Pipistrelle,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Tricolored Bat,Perimyotis subflavus,Eastern Pipistrelle,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico|Belize|Guatemala|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Mexican Big-eared Bat,Corynorhinus mexicanus,,,CHIROPTERA,VESPERTILIONIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Rafinesque's Big-eared Bat,Corynorhinus rafinesquii,,,CHIROPTERA,VESPERTILIONIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Townsend's Big-eared Bat,Corynorhinus townsendii,,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Spotted Bat,Euderma maculatum,Pinto Bat,,CHIROPTERA,VESPERTILIONIDAE,Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Allen's Big-eared Bat,Idionycteris phyllotis,Lappet-browed Bat|Mexican Big-eared Bat,,CHIROPTERA,VESPERTILIONIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Naked-tailed Armadillo,Cabassous centralis,,,CINGULATA,CHLAMYPHORIDAE,Mexico|Belize|El Salvador|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Venezuela|Colombia|Ecuador,No,Yes,,7,,,,,,,NA,FALSE,TRUE
+Nine-banded Armadillo,Dasypus novemcinctus,Common Long-nosed Armadillo,,CINGULATA,DASYPODIDAE,United States|Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Grenada|Guyana|Suriname|French Guiana|Brazil|Ecuador|Peru|Bolivia|Paraguay|Uruguay|Argentina,Yes,Yes,Yes,445,15753,,,,,,1,NA,TRUE
+Derby's Woolly Opossum,Caluromys derbianus,Central American Woolly Opossum|Derby's Pale-eared Woolly Opossum,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador,No,Yes,,22,,,,,,,NA,TRUE,TRUE
+Water Opossum,Chironectes minimus,Yapok,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador|Venezuela|Guyana|Suriname|French Guiana|Trinidad & Tobago|Ecuador|Peru|Bolivia|Brazil|Paraguay|Uruguay|Argentina,No,Yes,,12,,,,,,,NA,NA,TRUE
+Northern Black-eared Opossum,Didelphis marsupialis,Common Opossum|Carachupa,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador|Venezuela|Guyana|Suriname|French Guiana|Trinidad & Tobago|Dominica|Ecuador|Peru|Bolivia|Brazil,No,Yes,,208,,,,,,,NA,TRUE,TRUE
+Virginia Opossum,Didelphis virginiana,North American Opossum,,DIDELPHIMORPHIA,DIDELPHIDAE,Canada|United States|Mexico|Belize|Honduras|Guatemala|El Salvador|Costa Rica,Yes,Yes,Yes,2118,25772,,,,,,1,NA,TRUE
+Northern Four-eyed Opossum,Philander vossi,,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico|Belize|El Salvador|Honduras?|Nicaragua?,No,Yes,,171,,,,"Listed as ""Philander opossum""",,,NA,NA,TRUE
+Mexican Mouse Opossum,Marmosa mexicana,,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama,No,Yes,,108,,,,,,,NA,TRUE,TRUE
+Balsas Gray Mouse Opossum,Tlacuatzin balsasensis,Balsas Mouse Opossum,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico,No,Yes,,0,,,,,,,NA,NA,TRUE
+Tehuantepec Gray Mouse Opossum,Tlacuatzin canescens,Gray Mouse Opossum|Grayish Mouse Opossum|Tlacuatzin,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico,No,Yes,,76,,,,,,,NA,TRUE,TRUE
+Yucatan Gray Mouse Opossum,Tlacuatzin gaumeri,Yucatan Mouse Opossum,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico,No,Yes,,0,,,,,,,NA,NA,TRUE
+Tres MarÃ­as Gray Mouse Opossum,Tlacuatzin insularis,Tres MarÃ­as Mouse Opossum,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico,No,Yes,,0,,,,,,,NA,NA,TRUE
+Northern Gray Mouse Opossum,Tlacuatzin sinaloae,Northern Mouse Opossum,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico,No,Yes,,0,,,,,,,NA,NA,TRUE
+Common Brown Four-eyed Opossum,Metachirus myosuros,,,DIDELPHIMORPHIA,DIDELPHIDAE,Mexico|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador|Peru|Brazil|Bolivia|Paraguay|Argentina,No,Yes,,2,,,,"Listed as ""Metachiris nudicaudatus""",,,NA,NA,TRUE
+Northern Short-tailed Shrew,Blarina brevicauda,Giant Mole Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Southern Short-tailed Shrew,Blarina carolinensis,Carolina Short-eared Shrew,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Elliot's Short-tailed Shrew,Blarina hylophaga,,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Everglades Short-tailed Shrew,Blarina peninsulae,Florida Short-tailed Shrew|Peninsular Short-tailed Shrew,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Sherman's Short-tailed Shrew,Blarina shermani,,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Popocatepetl Broad-clawed Shrew,Cryptotis alticola,Central Mexican Broad-clawed Shrew|Central Mexican Shrew|Popocatepetl Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Berlandier's Least Shrew,Cryptotis berlandieri,Berlandier's Shrew,,EULIPOTYPHLA,SORICIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Goldman's Broad-clawed Shrew,Cryptotis goldmani,Goldman's Shrew|Goldman's Small-eared Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Goodwin's Broad-clawed Shrew,Cryptotis goodwini,Goodwin's Small-eared Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Dark Mexican Broad-clawed Shrew,Cryptotis griseoventris,Dark Mexican Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Lacandona Small-eared Shrew,Cryptotis lacandonensis,Lacandona Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico|Guatemala?,,No,,,,,,,,,NA,NA,FALSE
+Big Mexican Small-eared Shrew,Cryptotis magnus,Big Small-eared Shrew|Big Mexican Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Yucatan Small-eared Shrew,Cryptotis mayensis,Maya Small-eared Shrew|Yucatan Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico|Guatemala|Belize,,No,,,,,,,,,NA,TRUE,FALSE
+Merriam's Small-eared Shrew,Cryptotis merriami,,,EULIPOTYPHLA,SORICIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica,,No,,,,,,,,,NA,TRUE,FALSE
+Small Mexican Small-eared Shrew,Cryptotis mexicanus,Mexican Short-tailed Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Nelson's Small-eared Shrew,Cryptotis nelsoni,Nelson's Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Grizzled Small-eared Shrew,Cryptotis obscurus,Grizzled Mexican Small-eared Shrew|Grizzled Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+North American Least Shrew,Cryptotis parvus,American Least Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Oaxacan Broad-clawed Shrew,Cryptotis peregrinus,Mexican Mountain Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Phillips's Small-eared Shrew,Cryptotis phillipsii,Phillips's Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Puebla Least Shrew,Cryptotis pueblensis,Puebla Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Mexican Least Shrew,Cryptotis soricinus,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Tropical Least Shrew,Cryptotis tropicalis,Tropical Shrew|Tropical Small-eared Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador,,No,,,,,,,,,NA,TRUE,FALSE
+Mexican Shrew,Megasorex gigas,Merriam's Desert Shrew|Mexican Giant Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Cockrum's Gray Shrew,Notiosorex cockrumi,Cockrum's Desert Shrew|Cockrum's Shrew,,EULIPOTYPHLA,SORICIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Desert Gray Shrew,Notiosorex crawfordi,Crawford's Desert Shrew|Crawford's Gray Shrew|Crawford's Shrew|Desert Shrew,,EULIPOTYPHLA,SORICIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Large-eared Gray Shrew,Notiosorex evotis,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Ticul's Gray Shrew,Notiosorex tataticuli,Ticul's Desert Shrew,,EULIPOTYPHLA,SORICIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Villa's Gray Shrew,Notiosorex villai,Villa's Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Eastern Water Shrew,Sorex albibarbis,,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Alto Shrew,Sorex altoensis,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Arctic Shrew,Sorex arcticus,Black-backed Shrew|Saddle-back Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Arizona Shrew,Sorex arizonae,,,EULIPOTYPHLA,SORICIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Marsh Shrew,Sorex bendirii,Pacific Water Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Chiapan Shrew,Sorex chiapensis,,,EULIPOTYPHLA,SORICIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,NA,FALSE
+Masked Shrew,Sorex cinereus,Cinereus Shrew,,EULIPOTYPHLA,SORICIDAE,Alaska|Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Rock Shrew,Sorex dispar,Long-tailed Shrew|GaspÃ© Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Zacatecas Shrew,Sorex emarginatus,Jackson's Shrew|Sierra Madre Long-tailed Shrew|Zacatecas Long-tailed Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Western Pygmy Shrew,Sorex eximius,,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Maryland Shrew,Sorex fontinalis,Eastern Shrew,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Smoky Shrew,Sorex fumeus,,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Prairie Shrew,Sorex haydeni,Hayden's Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Eastern Pygmy Shrew,Sorex hoyi,American Pygmy Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Ixtlan Shrew,Sorex ixtlanensis,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+South-eastern Shrew,Sorex longirostris,,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Mount Lyell Shrew,Sorex lyelli,Lyell Shrew,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Mexican Large-toothed Shrew,Sorex macrodon,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Maritime Shrew,Sorex maritimensis,,,EULIPOTYPHLA,SORICIDAE,Canada,,No,,,,,,,,,4,TRUE,FALSE
+Jalisco Shrew,Sorex mediopua,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Merriam's Shrew,Sorex merriami,,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Carmen Mountain Shrew,Sorex milleri,Miller's Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Eurasian Least Shrew,Sorex minutissimus,Least Siberian Shrew|Lesser Pygmy Shrew|Miniscule Shrew,,EULIPOTYPHLA,SORICIDAE,Norway|Sweden|Finland|Estonia|Russia|Kazakhstan|Mongolia|China|North Korea|Japan|Alaska|Canada,,No,,,,,,,,,NA,TRUE,FALSE
+Southern Montane Shrew,Sorex monticola,,,EULIPOTYPHLA,SORICIDAE,United States|Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Mutable Shrew,Sorex mutabilis,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Dwarf Shrew,Sorex nanus,Rocky Mountain Dwarf Shrew,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Western Water Shrew,Sorex navigator,,,EULIPOTYPHLA,SORICIDAE,Alaska|Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Northern Montane Shrew,Sorex obscurus,,,EULIPOTYPHLA,SORICIDAE,Alaska|Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Mexican Long-tailed Shrew,Sorex oreopolus,Volcano Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Orizaba Long-tailed Shrew,Sorex orizabae,Orizaba Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Ornate Shrew,Sorex ornatus,Suisun Shrew|Tule Shrew,,EULIPOTYPHLA,SORICIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Pacific Shrew,Sorex pacificus,,,EULIPOTYPHLA,SORICIDAE,Alaska|Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+American Water Shrew,Sorex palustris,,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Preble's Shrew,Sorex preblei,Malheur Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Olympic Shrew,Sorex rohweri,Rohwer's Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Salvin's Shrew,Sorex salvini,,,EULIPOTYPHLA,SORICIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,NA,FALSE
+Saussure's Shrew,Sorex saussurei,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Sclater's Shrew,Sorex sclateri,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Fog Shrew,Sorex sonomae,Sonoma Shrew,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Pale-toothed Shrew,Sorex stizodon,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Inyo Shrew,Sorex tenellus,Great Basin Dwarf Shrew,,EULIPOTYPHLA,SORICIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Trowbridge's Shrew,Sorex trowbridgii,,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Tundra Shrew,Sorex tundrensis,Holarctic Shrew,,EULIPOTYPHLA,SORICIDAE,Russia|Kazakhstan|China|Mongolia|North Korea|South Korea|Alaska|Canada,,No,,,,,,,,,4,TRUE,FALSE
+Barren Ground Shrew,Sorex ugyunak,,,EULIPOTYPHLA,SORICIDAE,Alaska|Canada,,No,,,,,,,,,4,TRUE,FALSE
+Vagrant Shrew,Sorex vagrans,Salt Marsh Shrew,,EULIPOTYPHLA,SORICIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Chestnut-bellied Shrew,Sorex ventralis,San Felipe Long-tailed Shrew,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Veracruz Shrew,Sorex veraecrucis,,,EULIPOTYPHLA,SORICIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Star-nosed Mole,Condylura cristata,,,EULIPOTYPHLA,TALPIDAE,Canada|United States,,No,,,,,,,,,2,NA,TRUE
+Hairy-tailed Mole,Parascalops breweri,Brewer's Mole,,EULIPOTYPHLA,TALPIDAE,Canada|United States,,No,,,,,,,,,3,TRUE,FALSE
+Eastern Mole,Scalopus aquaticus,,,EULIPOTYPHLA,TALPIDAE,Canada|United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Mexican Mole,Scapanus anthonyi,Blind Mole,,EULIPOTYPHLA,TALPIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Broad-footed Mole,Scapanus latimanus,Broad-footed Mole|Broad-handed Mole,,EULIPOTYPHLA,TALPIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Southern Broad-footed Mole,Scapanus occultus,Broad-footed Mole,,EULIPOTYPHLA,TALPIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Coast Mole,Scapanus orarius,Coastal Mole|Pacific Mole|Red-footed Mole,,EULIPOTYPHLA,TALPIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Townsend's Mole,Scapanus townsendii,,,EULIPOTYPHLA,TALPIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+American Shrew Mole,Neurotrichus gibbsii,Shrew Mole,,EULIPOTYPHLA,TALPIDAE,Canada|United States,,No,,,,,,,,,2,NA,TRUE
+Antelope Jackrabbit,Lepus alleni,Allen's Hare|Allen's Jackrabbit|Blanket Jak|Burro Jack|Jackass Rabbit|Mexican Jackrabbit|Saddle Jack|Wandering Jackrabbit,,LAGOMORPHA,LEPORIDAE,United States|Mexico,Yes,Yes,Yes,111,612,,,,,,2,NA,TRUE
+Tamaulipas Jackrabbit,Lepus altamirae,,,LAGOMORPHA,LEPORIDAE,Mexico,No,Yes,,,,,,,,,NA,NA,FALSE
+Snowshoe Hare,Lepus americanus,Snowshoe Rabbit|Varying Hare,,LAGOMORPHA,LEPORIDAE,Alaska|Canada|United States,Yes,Yes,Yes,2276,6592,,,,,,2,NA,TRUE
+Arctic Hare,Lepus arcticus,American Arctic Hare|Canadian Arctic Hare|Labrador Hare|Greenland Hare|Polar Hare,,LAGOMORPHA,LEPORIDAE,Canada|Greenland,No,Yes,,,,,,,,,4,FALSE,TRUE
+Black-tailed Jackrabbit,Lepus californicus,California Jackrabbit,,LAGOMORPHA,LEPORIDAE,United States|Mexico,Yes,Yes,Yes,2498,9775,,,,,,2,NA,TRUE
+White-sided Jackrabbit,Lepus callotis,Beautiful-eared Jackrabbit|Gaillard Jackrabbit|Snow Sides,,LAGOMORPHA,LEPORIDAE,United States|Mexico,Yes,Yes,Yes,75,57,,,,,,2,NA,TRUE
+Tehuantepec Jackrabbit,Lepus flavigularis,Tehuantepec Hare|Tropical Hare,,LAGOMORPHA,LEPORIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+White-tailed Jackrabbit,Lepus townsendii,Prairie Hare,,LAGOMORPHA,LEPORIDAE,Canada|United States,Yes,Yes,Yes,739,2095,,,,,,2,NA,TRUE
+Volcano Rabbit,Romerolagus diazi,,,LAGOMORPHA,LEPORIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+American Pika,Ochotona princeps,Cony|Rock Rabbit|Whistling Hare,,LAGOMORPHA,OCHOTONIDAE,Canada|United States,Yes,Yes,Yes,3974,4597,,,,,,2,NA,TRUE
+Swamp Rabbit,Sylvilagus aquaticus,Cane-cutter,Lepus aquaticus,LAGOMORPHA,LEPORIDAE,United States,Yes,Yes,Yes,150,1104,,,,,,3,TRUE,FALSE
+Desert Cottontail,Sylvilagus audubonii,Audubon's Cottontail,Lepus audubonii,LAGOMORPHA,LEPORIDAE,United States|Mexico,Yes,Yes,Yes,5070,19010,,,,,,3,TRUE,FALSE
+Mexican Cottontail,Sylvilagus cunicularius,,,LAGOMORPHA,LEPORIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Brush Rabbit,Sylvilagus bachmani,Riparian Brush Rabbit,Lepus bachmani,LAGOMORPHA,LEPORIDAE,United States|Mexico,Yes,Yes,Yes,681,4356,,,,,,4,TRUE,FALSE
+Central American Tapeti,Sylvilagus gabbi,Central American Forest Rabbit|Tropical Cottontail,,LAGOMORPHA,LEPORIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Tres Marias Cottontail,Sylvilagus graysoni,Tres Marias Rabbit,,LAGOMORPHA,LEPORIDAE,Mexico,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Eastern Cottontail,Sylvilagus floridanus,Florida Cottontail,Lepus sylvaticus,LAGOMORPHA,LEPORIDAE,Canada|United States|Mexico|Honduras|Guatemala|El Salvador|Nicaragua|Costa Rica|Colombia|Venezuela,Yes,Yes,Yes,3647,57485,,,,,,4,TRUE,FALSE
+Robust Cottontail,Sylvilagus holzneri,Manzano Mountain Cottontail,,LAGOMORPHA,LEPORIDAE,United States|Mexico,Yes,Yes,Yes,0,59,,,,,,NA,NA,FALSE
+Omilteme Cottontail,Sylvilagus insonus,Omiltemi Cottontail|Omiltemi Rabbit,,LAGOMORPHA,LEPORIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Pygmy Rabbit,Sylvilagus idahoensis,,"Lepus idahoensis, Brachylagus idahoensis",LAGOMORPHA,LEPORIDAE,United States,Yes,Yes,Yes,368,37,,,"Listed as ""Brachylagus idahoensis""",,,3,NA,FALSE
+Mountain Cottontail,Sylvilagus nuttallii,Nuttall's Cottontail,Lepus nuttallii,LAGOMORPHA,LEPORIDAE,Canada|United States,Yes,Yes,Yes,1445,1202,,,,,,4,TRUE,FALSE
+Appalachian Cottontail,Sylvilagus obscurus,Allegheny Cottontail|Wood Rabbit,,LAGOMORPHA,LEPORIDAE,United States,Yes,Yes,Yes,26,58,,,,,,4,TRUE,FALSE
+Marsh Rabbit,Sylvilagus palustris,Key Rabbit|Lower Keys Marsh Rabbit,,LAGOMORPHA,LEPORIDAE,United States,Yes,Yes,Yes,99,3758,,,,,,3,FALSE,TRUE
+Collared Pika,Ochotona collaris,,,LAGOMORPHA,OCHOTONIDAE,Alaska|Canada,No,Yes,,,,,,,,,2,NA,TRUE
+New England Cottontail,Sylvilagus transitionalis,Wood Rabbit,Lepus sylvaticus transitionalis,LAGOMORPHA,LEPORIDAE,United States,Yes,Yes,Yes,131,19,,,,,,4,TRUE,FALSE
+Central American Tapir,Tapirus bairdii,Baird's Tapir,,PERISSODACTYLA,TAPIRIDAE,Mexico|Guatemala|Belize|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador?,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Central American Silky Anteater,Cyclopes dorsalis,,,PILOSA,CYCLOPEDIDAE,Mexico|Belize|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Northern Tamandua,Tamandua mexicana,Mexican Anteater,,PILOSA,MYRMECOPHAGIDAE,Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador|Peru,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Mantled Howler,Alouatta palliata,Azuero Peninsula Howler|Coiba Island Howler|Ecuadorian Mantled Howler|South Pacific Blackish Howler|Golden-mantled Howler|Mexican Howler,,PRIMATES,ATELIDAE,Mexico|Guatemala|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Ecuador|Peru,No,Yes,,,,,,,,,NA,TRUE,TRUE
+Central American Black Howler,Alouatta pigra,Guatemalan Black Howler|Lawrence's Black Howler|Mexican Black Howler|YucatÃ¡n Black Howler,,PRIMATES,ATELIDAE,Mexico|Belize|Guatemala,No,Yes,,,,,,,,,NA,TRUE,TRUE
+Central American Spider Monkey,Ateles geoffroyi,Black-handed Spider Monkey|Geoffroy's Spider Monkey|Azuero Spider Monkey|Black-browed Spider Monkey|Geoffroy's Spider Monkey|Hooded Spider Monkey|Mexican Spider Monkey|Ornate Spider Monkey|YucatÃ¡n Spider Monkey,,PRIMATES,ATELIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,No,Yes,,,,,,,,,NA,TRUE,TRUE
+Lowland Paca,Cuniculus paca,Paca|Spotted Paca,,RODENTIA,CUNICULIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Trinidad & Tobago|Guyana|Suriname|French Guiana|Ecuador|Peru|Brazil|Bolivia|Paraguay|Uruguay|Argentina,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Mexican Agouti,Dasyprocta mexicana,Mexican Black Agouti,,RODENTIA,DASYPROCTIDAE,Mexico,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Central American Agouti,Dasyprocta punctata,,,RODENTIA,DASYPROCTIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia|Venezuela|Ecuador,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Mexican Hairy Porcupine,Coendou mexicanus,Mexican Hairy Dwarf Porcupine|Mexican Porcupine|Mexican Tree Porcupine,,RODENTIA,ERETHIZONTIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,No,Yes,,,,,,,,,NA,FALSE,TRUE
+Harris's Antelope Squirrel,Ammospermophilus harrisii,,,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,646,1043,,,,,,3,TRUE,FALSE
+Texas Antelope Squirrel,Ammospermophilus interpres,,Tamias interpres,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,173,185,,,,,,3,TRUE,FALSE
+White-tailed Antelope Squirrel,Ammospermophilus leucurus,,Tamias leucurus,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,3906,3012,,,,,,4,TRUE,FALSE
+Nelson's Antelope Squirrel,Ammospermophilus nelsoni,,Spermophilus nelsoni,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,241,325,,,,,,4,FALSE,TRUE
+Mountain Beaver,Aplodontia rufa,Boomer|Sewellel|Point Arena Mountain Beaver|Point Reyes Mountain Beaver,,RODENTIA,APLODONTIIDAE,Canada|United States,Yes,Yes,Yes,840,99,,,,,,1,NA,TRUE
+Common Golden-mantled Ground Squirrel,Callospermophilus lateralis,Green River Basin Golden-mantled Ground Squirrel,Spermophilus lateralis,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,5600,8527,,,,,,4,FALSE,TRUE
+Allen's Squirrel,Sciurus alleni,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Cascade Golden-mantled Ground Squirrel,Callospermophilus saturatus,,"Tamias lateralis saturatus, Spermophilus saturatus",RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,26,943,,,,,,4,FALSE,TRUE
+Red-bellied Squirrel,Sciurus aureogaster,Mexican Gray Squirrel|Mexican Red-bellied Squirrel,,RODENTIA,SCIURIDAE,Mexico|Guatemala,No,Yes,,,,,,,,,NA,TRUE,FALSE
+North American Beaver,Castor canadensis,American Beaver|Canadian Beaver,,RODENTIA,CASTORIDAE,Alaska|Canada|United States|Mexico,Yes,Yes,Yes,2039,27584,,,,,,2,NA,TRUE
+Collie's Squirrel,Sciurus colliaei,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Deppe's Squirrel,Sciurus deppei,,,RODENTIA,SCIURIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Gunnison's Prairie Dog,Cynomys gunnisoni,,Spermophilus gunnisoni,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,742,873,,,,,,3,TRUE,FALSE
+White-tailed Prairie Dog,Cynomys leucurus,,,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,416,298,,,,,,3,TRUE,FALSE
+Black-tailed Prairie Dog,Cynomys ludovicianus,Arizona Black-tailed Prairie Dog,,RODENTIA,SCIURIDAE,Canada|United States|Mexico,Yes,Yes,Yes,620,6044,,,,,,3,TRUE,FALSE
+Peters's Squirrel,Sciurus oculatus,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Variegated Squirrel,Sciurus variegatoides,,,RODENTIA,SCIURIDAE,Mexico|Guatemala|Honduras|Nicaragua|El Salvador|Costa Rica|Panama,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Yucatan Squirrel,Sciurus yucatanensis,,,RODENTIA,SCIURIDAE,Mexico|Belize|Guatemala,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Utah Prairie Dog,Cynomys parvidens,,,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,82,180,,,,,,3,TRUE,FALSE
+North American Porcupine,Erethizon dorsatum,Quiller|Quill Pig,Erethizon dorsata,RODENTIA,ERETHIZONTIDAE,Alaska|Canada|United States|Mexico,Yes,Yes,Yes,1441,11407,,,"Listed as ""Erethizon dorsatus""",,,1,NA,TRUE
+Humboldt's Flying Squirrel,Glaucomys oregonensis,Bachman's Flying Squirrel|California Coast Flying Squirrel|Cascade Flying Squirrel|Klamath Flying Squirrel|Okanagan Flying Squirrel|Yellow-bellied Flying Squirrel,Pteromys oregonensis,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,0,476,,,,,,NA,NA,FALSE
+Northern Flying Squirrel,Glaucomys sabrinus,Carolina Flying Squirrel|Alaska Coast Flying Squirrel|Atnarko Flying Squirrel|Bangs Flying Squirrel|Broad-footed Flying Squirrel|Cascade Flying Squirrel|Hudson Bay Flying Squirrel|Labrador Flying Squirrel|Mearns's Flying Squirrel|Okanagan Flying Squirrel|Richardson Flying Squirrel|Sierra Flying Squirrel|Yukon Flying Squirrel,,RODENTIA,SCIURIDAE,Alaska|Canada|United States,Yes,Yes,Yes,2238,658,,,,,,4,TRUE,FALSE
+Southern Flying Squirrel,Glaucomys volans,Mexican Flying Squirrel|Florida Flying Squirrel|Small Eastern Flying Squirrel|Southeastern Flying Squirrel|Texas Flying Squirrel,,RODENTIA,SCIURIDAE,Canada|United States|Mexico|Guatemala|Honduras,Yes,Yes,Yes,938,1971,,,,,,4,TRUE,FALSE
+Rio Grande Ground Squirrel,Ictidomys parvidens,,Spermophilus mexicanus parvidens,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,268,639,,,,,,NA,NA,FALSE
+Thirteen-lined Ground Squirrel,Ictidomys tridecemlineatus,,Spermophilus tridecemlineatus,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,2553,2225,,,,,,2,NA,TRUE
+Hoary Marmot,Marmota caligata,,,RODENTIA,SCIURIDAE,Alaska|Canada|United States,Yes,Yes,Yes,530,2475,,,,,,2,NA,TRUE
+Sierra Madre Ground Squirrel,Callospermophilus madrensis,Sierra Madre Golden-mantled Ground Squirrel,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Yellow-bellied Marmot,Marmota flaviventris,,Marmota flaviventer,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,1148,7505,,,,,,1,NA,TRUE
+Woodchuck,Marmota monax,Groundhog,,RODENTIA,SCIURIDAE,Alaska|Canada|United States,Yes,Yes,Yes,790,18753,,,,,,2,NA,TRUE
+Olympic Marmot,Marmota olympus,,Arctomys olympus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,27,252,,,,,,2,NA,TRUE
+Nutria,Myocastor coypus,Coypu,Myopotamus coypus,RODENTIA,ECHIMYIDAE,Canada|United States|Mexico,Yes,Yes,Yes,199,3807,,,,,,2,NA,TRUE
+Mexican Prairie Dog,Cynomys mexicanus,Mexican Prairie Marmot,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Round-tailed Muskrat,Neofiber alleni,,,RODENTIA,CRICETIDAE,United States,Yes,Yes,Yes,68,17,,,,,,3,NA,FALSE
+Mexican Ground Squirrel,Ictidomys mexicanus,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,3,TRUE,FALSE
+Alpine Chipmunk,Neotamias alpinus,,Tamias alpinus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,375,21,,,Listed as Tamius,,,4,TRUE,FALSE
+Yellow-pine Chipmunk,Neotamias amoenus,,Tamias amoenus,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,5325,1074,,,Listed as Tamius,,,4,TRUE,FALSE
+Alaska Marmot,Marmota broweri,,,RODENTIA,SCIURIDAE,Alaska|Canada,No,Yes,,,,,,,,,2,NA,TRUE
+Gray-footed Chipmunk,Neotamias canipes,,"Eutamias cinereicollis canipes, Tamias canipes
+",RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,221,238,,,Listed as Tamius,,,4,FALSE,TRUE
+Gray-collared Chipmunk,Neotamias cinereicollis,,Tamias cinereicollis,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,410,56,,,Listed as Tamius,,,3,FALSE,TRUE
+Crater Chipmunk,Neotamias cratericus,,,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,0,0,,,Listed as Tamius,,,NA,NA,FALSE
+Cliff Chipmunk,Neotamias dorsalis,,Tamias dorsalis,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,2420,898,,,Listed as Tamius,,,2,NA,TRUE
+Vancouver Island Marmot,Marmota vancouverensis,,,RODENTIA,SCIURIDAE,Canada,No,Yes,,,,,,,,,2,NA,TRUE
+Tropical Ground Squirrel,Notocitellus adocetus,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Ring-tailed Ground Squirrel,Notocitellus annulatus,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Coulee Chipmunk,Neotamias grisescens,,,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,0,0,,,Listed as Tamius,,,NA,NA,FALSE
+Merriam's Chipmunk,Neotamias merriami,,"Tamias asiaticus merriami, Tamias merriami
+",RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,811,1087,,,Listed as Tamius,,,4,TRUE,FALSE
+Least Chipmunk,Neotamias minimus,PeÃ±asco Least Chipmunk|Selkirk Least Chipmunk,Tamias minimus,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,9777,2037,,,Listed as Tamius,,,4,TRUE,FALSE
+California Chipmunk,Neotamias obscurus,,Tamias obscurus,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,176,81,,,Listed as Tamius,,,4,TRUE,FALSE
+Yellow-cheeked Chipmunk,Neotamias ochrogenys,Redwood Chipmunk,"Eutamias townsendii ochrogenys, Tamias ochrogenys",RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,253,42,,,Listed as Tamius,,,4,TRUE,FALSE
+Palmer's Chipmunk,Neotamias palmeri,,"Eutamias palmeri, Tamias palmeri",RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,73,96,,,Listed as Tamius,,,4,TRUE,FALSE
+Panamint Chipmunk,Neotamias panamintinus,,Tamias panamintinus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,426,25,,,Listed as Tamius,,,4,TRUE,FALSE
+Long-eared Chipmunk,Neotamias quadrimaculatus,,Tamias quadrimaculatus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,255,87,,,Listed as Tamius,,,4,TRUE,FALSE
+Colorado Chipmunk,Neotamias quadrivittatus,,Tamias quadrivittatus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,1722,141,,,Listed as Tamius,,,4,TRUE,FALSE
+Red-tailed Chipmunk,Neotamias ruficaudus,,"Eutamias ruficaudus, Tamias ruficaudus",RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,48,25,,,Listed as Neotamius,,,4,TRUE,FALSE
+Hopi Chipmunk,Neotamias rufus,,"Eutamias rufus, Tamias rufus",RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,591,149,,,Listed as Tamius,,,4,TRUE,FALSE
+Arctic Ground Squirrel,Urocitellus parryii,,,RODENTIA,SCIURIDAE,Russia|Alaska|Canada,No,Yes,,,,,,,,,3,FALSE,TRUE
+Shadow Chipmunk,Neotamias senex,Allen's Chipmunk,Tamias senex,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,883,36,,,Listed as Tamius,,,4,TRUE,FALSE
+Siskiyou Chipmunk,Neotamias siskiyou,,"Eutamias townsendii siskiyou, Tamias siskiyou
+",RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,409,26,,,Listed as Tamius,,,4,TRUE,FALSE
+Sonoma Chipmunk,Neotamias sonomae,,Tamias sonomae,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,575,408,,,Listed as Tamius,,,4,TRUE,FALSE
+Lodgepole Chipmunk,Neotamias speciosus,,Tamias speciosus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,2033,306,,,Listed as Tamius,,,4,TRUE,FALSE
+Perote Ground Squirrel,Xerospermophilus perotensis,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Townsend's Chipmunk,Neotamias townsendii,,Tamias townsendii,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,154,1254,,,Listed as Tamius,,,4,TRUE,FALSE
+Uinta Chipmunk,Neotamias umbrinus,Hidden Forest Uinta Chipmunk|Mount Ellen Uinta Chipmunk,Tamias umbrinus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,2547,310,,,Listed as Tamius,,,4,TRUE,FALSE
+White-throated Woodrat,Neotoma albigula,,,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,7648,160,,,,,,4,TRUE,FALSE
+Bryant's Woodrat,Neotoma bryanti,,,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,1224,57,,,,,,4,TRUE,FALSE
+Buller's Chipmunk,Neotamias bulleri,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Bushy-tailed Woodrat,Neotoma cinerea,Packrat,,RODENTIA,CRICETIDAE,Alaska|Canada|United States,Yes,Yes,Yes,2801,185,,,,,,2,NA,TRUE
+Arizona Woodrat,Neotoma devia,,Neotoma intermedia devia,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,380,8,,,,,,4,TRUE,FALSE
+Eastern Woodrat,Neotoma floridana,Key Largo Woodrat,,RODENTIA,CRICETIDAE,United States,Yes,Yes,Yes,1371,165,,,,,,4,TRUE,FALSE
+Dusky-footed Woodrat,Neotoma fuscipes,San Joaquin Valley Woodrat|Riparian Woodrat,,RODENTIA,CRICETIDAE,United States,Yes,Yes,Yes,1628,714,,,,,,4,TRUE,FALSE
+Durango Chipmunk,Neotamias durangae,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Desert Woodrat,Neotoma lepida,,,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,7254,74,,,,,,4,TRUE,FALSE
+White-toothed Woodrat,Neotoma leucodon,,,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,1183,29,,,,,,4,TRUE,FALSE
+Big-eared Woodrat,Neotoma macrotis,Large-eared Woodrat,,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,1632,84,,,,,,4,TRUE,FALSE
+Allegheny Woodrat,Neotoma magister,Appalachian Woodrat,,RODENTIA,CRICETIDAE,United States,Yes,Yes,Yes,44,26,,,,,,4,TRUE,FALSE
+Mexican Woodrat,Neotoma mexicana,,,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,2903,37,,,,,,4,TRUE,FALSE
+Southern Plains Woodrat,Neotoma micropus,,,RODENTIA,CRICETIDAE,United States|Mexico,Yes,Yes,Yes,1815,64,,,,,,4,TRUE,FALSE
+Stephens's Woodrat,Neotoma stephensi,,,RODENTIA,CRICETIDAE,United States,Yes,Yes,Yes,520,3,,,,,,3,TRUE,FALSE
+Common Muskrat,Ondatra zibethicus,Muskbeaver,,RODENTIA,CRICETIDAE,Alaska|Canada|United States|Mexico,Yes,Yes,Yes,4612,15948,,,,,,3,NA,FALSE
+California Ground Squirrel,Otospermophilus beecheyi,Beechey's Ground Squirrel|Gray Digger,Spermophilus beecheyi,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,2598,24243,,,,,,3,FALSE,TRUE
+Douglas's Ground Squirrel,Otospermophilus douglasii,,,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,0,0,,,,,,NA,NA,FALSE
+Common Rock Squirrel,Otospermophilus variegatus,,Spermophilus variegatus,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,2252,9384,,,,,,3,FALSE,TRUE
+Franklin's Ground Squirrel,Poliocitellus franklinii,,Spermophilus franklinii,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,216,653,,,,,,2,NA,TRUE
+Abert's Squirrel,Sciurus aberti,Tassel-eared Squirrel|Kaibab Squirrel,,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,861,1558,,,,,,2,NA,TRUE
+Sierra del Carmen Chipmunk,Neotamias solivagus,,,RODENTIA,SCIURIDAE,Mexico,No,Yes,,,,,,,,,NA,NA,FALSE
+Arizona Gray Squirrel,Sciurus arizonensis,,,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,85,929,,,,,,2,NA,TRUE
+Eastern Gray Squirrel,Sciurus carolinensis,,,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,1806,112699,,,,,,2,NA,TRUE
+Western Gray Squirrel,Sciurus griseus,Silver Gray Squirrel,,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,1482,7089,,,,,,2,NA,TRUE
+Mexican Fox Squirrel,Sciurus nayaritensis,Apache Squirrel|Chiricahua Fox Squirrel|Nayarit Squirrel,,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,194,312,,,,,,2,NA,TRUE
+Eastern Fox Squirrel,Sciurus niger,Bryant's Fox Squirrel|Cat Squirrel|Delmarva Fox Squirrel|Fox Squirrel|Stump-eared Squirrel|Western Fox Squirrel|Big Cypress Fox Squirrel,,RODENTIA,SCIURIDAE,Canada|United States|Mexico,Yes,Yes,Yes,2813,53259,,,,,,2,NA,TRUE
+Eastern Chipmunk,Tamias striatus,,,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,3451,35388,,,,,,2,NA,TRUE
+Yellow-faced Pocket Gopher,Cratogeomys castanops,,,RODENTIA,GEOMYIDAE,United States|Mexico,,No,,,,,,,,,3,TRUE,FALSE
+Oriental Basin Pocket Gopher,Cratogeomys fulvescens,Fulvous Pocket Gopher,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Smoky Pocket Gopher,Cratogeomys fumosus,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Goldman's Pocket Gopher,Cratogeomys goldmani,Goldman's Yellow-faced Pocket Gopher,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Merriam's Pocket Gopher,Cratogeomys merriami,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Cofre de Perote Pocket Gopher,Cratogeomys perotensis,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Volcan de Toluca Pocket Gopher,Cratogeomys planiceps,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Desert Pocket Gopher,Geomys arenarius,Sand Pocket Gopher|Rio Grande Pocket Gopher|Tularosa Pocket Gopher,,RODENTIA,GEOMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Attwater's Pocket Gopher,Geomys attwateri,Victoria Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Baird's Pocket Gopher,Geomys breviceps,Louisiana Pocket Gopher|Mer Rouge Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Plains Pocket Gopher,Geomys bursarius,Mississippi Valley Pocket Gopher,,RODENTIA,GEOMYIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Hall's Pocket Gopher,Geomys jugossicularis,Colorado Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Jones's Pocket Gopher,Geomys knoxjonesi,Knox Jones's Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Sand Hills Pocket Gopher,Geomys lutescens,Pale Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Texas Pocket Gopher,Geomys personatus,Masked Pocket Gopher|South Texas Pocket Gopher|Del Rio Pocket Gopher|Nueces Pocket Gopher|Padre Island Pocket Gopher|Rio Grande Pocket Gopher|Seaside Pocket Gopher,,RODENTIA,GEOMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+South-eastern Pocket Gopher,Geomys pinetis,Sandy Mounder|Colonial Pocket Gopher|Cumberland Island Pocket Gopher|Goff's Pocket Gopher|Sherman's Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,FALSE,TRUE
+Strecker's Pocket Gopher,Geomys streckeri,Carrizo Springs Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Llano Pocket Gopher,Geomys texensis,Central Texas Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Tropical Pocket Gopher,Geomys tropicalis,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Hispid Pocket Gopher,Heterogeomys hispidus,,,RODENTIA,GEOMYIDAE,Mexico|Belize|Guatemala|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Big Pocket Gopher,Heterogeomys lanius,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Giant Pocket Gopher,Orthogeomys grandis,Oaxacan Pocket Gopher,,RODENTIA,GEOMYIDAE,Mexico|Guatemala|El Salvador|Honduras,,No,,,,,,,,,NA,TRUE,FALSE
+Buller's Pocket Gopher,Pappogeomys bulleri,Alcorn's Pocket Gopher,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Michoacan Pocket Gopher,Zygogeomys trichopus,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Black-and-Brown Pocket Gopher,Thomomys atrovarius,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Botta's Pocket Gopher,Thomomys bottae,Valley Pocket Gopher,,RODENTIA,GEOMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Camas Pocket Gopher,Thomomys bulbivorus,Camas Rat,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Wyoming Pocket Gopher,Thomomys clusius,,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Idaho Pocket Gopher,Thomomys idahoensis,Bitterroot Valley Pocket Gopher|Hamilton Pocket Gopher|Pygmy Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Western Pocket Gopher,Thomomys mazama,Mazama Pocket Gopher|Puget Sound Pocket Gopher|Tacoma Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Mountain Pocket Gopher,Thomomys monticola,California Mountain Pocket Gopher|Sierra Nevada Pocket Gopher,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Nayar Pocket Gopher,Thomomys nayarensis,,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Sierra Madre Occidental Pocket Gopher,Thomomys sheldoni,Sheldon Pocket Gopher,,RODENTIA,GEOMYIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Pocket Gopher,Thomomys talpoides,Vancouver Pocket Gopher,,RODENTIA,GEOMYIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Townsend's Pocket Gopher,Thomomys townsendii,,,RODENTIA,GEOMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Southern Pocket Gopher,Thomomys umbrinus,Animas Mountains Pocket Gopher,,RODENTIA,GEOMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Agile Kangaroo Rat,Dipodomys agilis,Nimble Kangaroo Rat|Pacific Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+California Kangaroo Rat,Dipodomys californicus,,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Gulf Coast Kangaroo Rat,Dipodomys compactus,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Desert Kangaroo Rat,Dipodomys deserti,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Texas Kangaroo Rat,Dipodomys elator,Loring's Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+San Quintin Kangaroo Rat,Dipodomys gravipes,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Heermann's Kangaroo Rat,Dipodomys heermanni,Morro Bay Kangaroo Rat|Tulare Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Giant Kangaroo Rat,Dipodomys ingens,,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Merriam's Kangaroo Rat,Dipodomys merriami,Margarita Island Kangaroo Rat|San Bernardino Kangaroo Rat|San JosÃ© Island Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Chisel-toothed Kangaroo Rat,Dipodomys microps,Great Basin Kangaroo Rat|Houserock Chisel-toothed Kangaroo Rat|House Rock Valley Kangaroo Rat|Inyo Pocket Rat|Small-faced Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Nelson's Kangaroo Rat,Dipodomys nelsoni,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+San Joaquin Kangaroo Rat,Dipodomys nitratoides,San Joaquin Valley Kangaroo Rat|Fresno Kangaroo Rat|Short-nosed Kangaroo Rat|Tipton Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Ord's Kangaroo Rat,Dipodomys ordii,Five-toed Kangaroo Rat,,RODENTIA,HETEROMYIDAE,Canada|United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Plateau Kangaroo Rat,Dipodomys ornatus,Ornate Kangaroo Rat,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Panamint Kangaroo Rat,Dipodomys panamintinus,Mojave Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Phillips's Kangaroo Rat,Dipodomys phillipsii,Southern Banner-tailed Kangaroo Rat,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Dulzura Kangaroo Rat,Dipodomys simulans,Cabezon Kangaroo Rat|San Borja Kangaroo Rat|Santa Catarina Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Banner-tailed Kangaroo Rat,Dipodomys spectabilis,Bannertail Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,3,TRUE,FALSE
+Stephens's Kangaroo Rat,Dipodomys stephensi,Bonsall Relict Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Narrow-faced Kangaroo Rat,Dipodomys venustus,Santa Cruz Kangaroo Rat|Big-eared Kangaroo Rat|Elephant-eared Kangaroo Rat,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Dark Kangaroo Mouse,Microdipodops megacephalus,Owyhee River Kangaroo Mouse,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Pallid Kangaroo Mouse,Microdipodops pallidus,Pale Kangaroo Mouse|Soda Spring Valley Kangaroo Mouse,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Buller's Spiny Pocket Mouse,Heteromys bulleri,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Desmarest's Spiny Pocket Mouse,Heteromys desmarestianus,,,RODENTIA,HETEROMYIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia,,No,,,,,,,,,NA,TRUE,FALSE
+Gaumer's Spiny Pocket Mouse,Heteromys gaumeri,,,RODENTIA,HETEROMYIDAE,Mexico|Belize|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Goldman's Spiny Pocket Mouse,Heteromys goldmani,,,RODENTIA,HETEROMYIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,NA,FALSE
+Mexican Spiny Pocket Mouse,Heteromys irroratus,Guerrero Spiny Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,3,TRUE,FALSE
+Nelson's Spiny Pocket Mouse,Heteromys nelsoni,,,RODENTIA,HETEROMYIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Painted Spiny Pocket Mouse,Heteromys pictus,,,RODENTIA,HETEROMYIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Salvin's Spiny Pocket Mouse,Heteromys salvini,,,RODENTIA,HETEROMYIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Costa Rica,,No,,,,,,,,,NA,TRUE,FALSE
+Jaliscan Spiny Pocket Mouse,Heteromys spectabilis,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Dalquest's Pocket Mouse,Chaetodipus ammophilus,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Little Desert Pocket Mouse,Chaetodipus arenarius,Sand Pocket Mouse,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Narrow-skulled Pocket Mouse,Chaetodipus artus,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Bailey's Pocket Mouse,Chaetodipus baileyi,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+California Pocket Mouse,Chaetodipus californicus,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Highland Coarse-haired Pocket Mouse,Chaetodipus collis,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Durango Coarse-haired Pocket Mouse,Chaetodipus durangae,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Chihuahuan Desert Pocket Mouse,Chaetodipus eremicus,Chihuahuan Pocket Mouse|Eastern Desert Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+San Diego Pocket Mouse,Chaetodipus fallax,Short-eared Pocket Mouse|Anthony's Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Long-tailed Pocket Mouse,Chaetodipus formosus,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Goldman's Pocket Mouse,Chaetodipus goldmani,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Hispid Pocket Mouse,Chaetodipus hispidus,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Rock Pocket Mouse,Chaetodipus intermedius,Intermediate Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Lined Pocket Mouse,Chaetodipus lineatus,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Nelson's Coarse-haired Pocket Mouse,Chaetodipus nelsoni,Nelson's Pocket Mouse,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Desert Pocket Mouse,Chaetodipus penicillatus,Sonoran Desert Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Sinaloan Pocket Mouse,Chaetodipus pernix,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Peninsular Pocket Mouse,Chaetodipus rudinoris,Baja California Pocket Mouse|Baja Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Cerralvo Island Pocket Mouse,Chaetodipus siccus,,,RODENTIA,HETEROMYIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Spiny Pocket Mouse,Chaetodipus spinatus,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+White-eared Pocket Mouse,Perognathus alticola,Tehachapi Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Arizona Pocket Mouse,Perognathus amplus,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Olive-backed Pocket Mouse,Perognathus fasciatus,,,RODENTIA,HETEROMYIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Plains Pocket Mouse,Perognathus flavescens,Apache Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Silky Pocket Mouse,Perognathus flavus,Baird's Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+San Joaquin Pocket Mouse,Perognathus inornatus,Salinas Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Little Pocket Mouse,Perognathus longimembris,Los Angeles Little Pocket Mouse|Los Angeles Pocket Mouse,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Merriam's Pocket Mouse,Perognathus merriami,,,RODENTIA,HETEROMYIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Great Basin Pocket Mouse,Perognathus mollipilosus,,,RODENTIA,HETEROMYIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Columbia Plateau Pocket Mouse,Perognathus parvus,,,RODENTIA,HETEROMYIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Western Woodland Jumping Mouse,Napaeozapus abietorum,,,RODENTIA,ZAPODIDAE,Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Eastern Woodland Jumping Mouse,Napaeozapus insignis,,,RODENTIA,ZAPODIDAE,Canada|United States,,No,,,,,,,,,3,TRUE,FALSE
+Northern Meadow Jumping Mouse,Zapus hudsonius,Hudson Bay Jumping Mouse,,RODENTIA,ZAPODIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Southern Meadow Jumping Mouse,Zapus luteus,,,RODENTIA,ZAPODIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Central Pacific Jumping Mouse,Zapus montanus,,,RODENTIA,ZAPODIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Oregon Jumping Mouse,Zapus oregonus,,,RODENTIA,ZAPODIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+South Pacific Jumping Mouse,Zapus pacificus,,,RODENTIA,ZAPODIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+South-western Jumping Mouse,Zapus princeps,Pacific Jumping Mouse,,RODENTIA,ZAPODIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+North-western Jumping Mouse,Zapus saltator,,,RODENTIA,ZAPODIDAE,Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+North Pacific Jumping Mouse,Zapus trinotatus,Coast Jumping Mouse|Point Reyes Jumping Mouse,,RODENTIA,ZAPODIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Western Red-backed Vole,Clethrionomys californicus,California Red-backed Vole,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,NA,TRUE,FALSE
+Southern Red-backed Vole,Clethrionomys gapperi,Boreal Red-backed Vole|Gapper's Red-backed Vole|Revillagigedo Island Red-backed Vole,,RODENTIA,CRICETIDAE,Alaska|Canada|United States,,No,,,,,,,,,NA,TRUE,FALSE
+Northern Red-backed Vole,Clethrionomys rutilus,Red Vole,,RODENTIA,CRICETIDAE,Norway|Sweden|Finland|Russia|Kazakhstan|China|Mongolia|North Korea|Japan|Alaska|Canada,,No,,,,,,,,,NA,TRUE,FALSE
+Nearctic Collared Lemming,Dicrostonyx groenlandicus,Bering Collared Lemming|Greenland Collared Lemming|Northern Collared Lemming|Northern Hoofed Lemming|Northern Varying Lemming,,RODENTIA,CRICETIDAE,Russia|Alaska|Canada|Greenland,,No,,,,,,,,,4,TRUE,FALSE
+Ungava Collared Lemming,Dicrostonyx hudsonius,Labrador Collared Lemming,,RODENTIA,CRICETIDAE,Canada,,No,,,,,,,,,4,FALSE,TRUE
+Ogilvie Mountains Collared Lemming,Dicrostonyx nunatakensis,Ogilvie Collared Lemming,,RODENTIA,CRICETIDAE,Canada,,No,,,,,,,,,4,FALSE,TRUE
+Richardson's Collared Lemming,Dicrostonyx richardsoni,Richardson's Hoofed Lemming|Richardson's Varying Lemming,,RODENTIA,CRICETIDAE,Canada,,No,,,,,,,,,4,TRUE,FALSE
+Beringian Brown Lemming,Lemmus nigripes,Beringian Lemming,,RODENTIA,CRICETIDAE,Russia|Alaska|Canada,,No,,,,,,,,,NA,NA,FALSE
+Nearctic Brown Lemming,Lemmus trimucronatus,,,RODENTIA,CRICETIDAE,Alaska|Canada,,No,,,,,,,,,4,TRUE,FALSE
+Northern Bog Lemming,Synaptomys borealis,Okanagan Bog Lemming,,RODENTIA,CRICETIDAE,Alaska|Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Southern Bog Lemming,Synaptomys cooperi,Kansas Bog Lemming|Southern Lemming Mouse,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Root Vole,Alexandromys oeconomus,Tundra Vole,,RODENTIA,CRICETIDAE,Netherlands|Germany|Austria|Hungary|Slovakia|Poland|Lithuania|Belarus|Ukraine|Estonia|Latvia|Norway|Sweden|Finland|Russia|Kazakhstan|Mongolia|China|Alaska|Canada,,No,,,,,,,,,NA,TRUE,FALSE
+Sagebrush Vole,Lemmiscus curtatus,,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Singing Vole,Microtus abbreviatus,St. Matthew Island Vole,Microtus miurus,RODENTIA,CRICETIDAE,Alaska|Canada,,No,,,,,,,,,4,FALSE,TRUE
+California Vole,Microtus californicus,Amargosa Vole|California Meadow Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Gray-tailed Vole,Microtus canicaudus,,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Rock Vole,Microtus chrotorrhinus,Southern Rock Vole|Yellow-nosed Vole,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Western Meadow Vole,Microtus drummondii,Chihuahua Vole|Potholes Meadow Vole|Admiralty Island Meadow Vole,,RODENTIA,CRICETIDAE,Alaska|Canada|United States,,No,,,,,,,,,NA,NA,FALSE
+Florida Salt Marsh Vole,Microtus dukecampbelli,,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Guatemalan Vole,Microtus guatemalensis,,,RODENTIA,CRICETIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Long-tailed Vole,Microtus longicaudus,Coronation Island Vole|San Bernardino Long-tailed Vole,,RODENTIA,CRICETIDAE,Alaska|Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Mexican Vole,Microtus mexicanus,,,RODENTIA,CRICETIDAE,Mexico|Guatemala,,No,,,,,,,,,4,TRUE,FALSE
+Mogollon Vole,Microtus mogollonensis,Hualpai Vole|Navajo Vole,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Montane Vole,Microtus montanus,Pahranagat Valley Montane Vole,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Tarabundi Vole,Microtus oaxacensis,Oaxacan Vole,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Prairie Vole,Microtus ochrogaster,,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Creeping Vole,Microtus oregoni,Oregon Meadow Mouse|Oregon Vole,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Eastern Meadow Vole,Microtus pennsylvanicus,Meadow Vole|Block Island Meadow Vole|Penobscot Meadow Vole|Beach Vole|Muskeget Vole,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Woodland Vole,Microtus pinetorum,Mole Mouse|Pine Mouse|Pine Vole,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,3,TRUE,FALSE
+Jalapan Vole,Microtus quasiater,Jalapan Pine Vole,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+North American Water Vole,Microtus richardsoni,Richardson's Meadow Vole|Richardson's Vole|Richardson's Water Vole,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,NA,FALSE
+Townsend's Vole,Microtus townsendii,Triangle Island Vole,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Zempoaltepec Vole,Microtus umbrosus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Taiga Vole,Microtus xanthognathus,Chestnut-cheeked Vole|Yellow-cheeked Vole,,RODENTIA,CRICETIDAE,Alaska|Canada,,No,,,,,,,,,4,TRUE,FALSE
+Douglas's Squirrel,Tamiasciurus douglasii,Chickaree|Mearn's Squirrel,Sciurus douglasii,RODENTIA,SCIURIDAE,Canada|United States|Mexico,Yes,Yes,Yes,1675,5997,,,,,,2,NA,TRUE
+Fremont's Squirrel,Tamiasciurus fremonti,Southwestern Red Squirrel|Mount Graham Red Squirrel,Sciurus fremonti,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,0,1253,,,,,,NA,NA,FALSE
+White-footed Vole,Arborimus albipes,,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Red Tree Vole,Arborimus longicaudus,Reddish Tree Mouse,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Sonoma Tree Vole,Arborimus pomo,California Red Tree Mouse|California Red Tree Vole|Pomo Tree Vole,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Western Heather Vole,Phenacomys intermedius,,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Eastern Heather Vole,Phenacomys ungava,,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Southern Pygmy Mouse,Baiomys brunneus,,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua,,No,,,,,,,,,NA,NA,FALSE
+Mexican Pygmy Mouse,Baiomys musculus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Northern Pygmy Mouse,Baiomys taylori,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,3,TRUE,FALSE
+Short-tailed Singing Mouse,Scotinomys teguina,Alston's Brown Mouse|Alston's Singing Mouse,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,TRUE,FALSE
+Allen's Woodrat,Hodomys alleni,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Goldman's Diminutive Woodrat,Nelsonia goldmani,Nelson and Goldman's Woodrat,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Western Diminutive Woodrat,Nelsonia neotomodon,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+North American Red Squirrel,Tamiasciurus hudsonicus,Pine Squirrel,,RODENTIA,SCIURIDAE,Alaska|Canada|United States,Yes,Yes,Yes,8264,32629,,,,,,2,NA,TRUE
+Tamaulipan Woodrat,Neotoma angustapalata,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Uinta Ground Squirrel,Urocitellus armatus,,Spermophilus armatus,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,846,816,,,,,,4,TRUE,FALSE
+Belding's Ground Squirrel,Urocitellus beldingi,,Spermophilus beldingi,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,1014,783,,,,,,4,TRUE,FALSE
+Idaho Ground Squirrel,Urocitellus brunneus,,"Spermophilus brunneus, Citellus townsendii brunneus
+",RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,20,17,,,,,,4,TRUE,FALSE
+Guatemala Woodrat,Neotoma ferruginea,Tomes's Woodrat,,RODENTIA,CRICETIDAE,Mexico|Guatemala|El Salvador|Honduras,No,Yes,,,,,,,,,NA,NA,FALSE
+Merriam's Ground Squirrel,Urocitellus canus,,"Spermophilus canus, Spermophilus mollis canus",RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,134,5,,,,,,4,TRUE,FALSE
+Columbian Ground Squirrel,Urocitellus columbianus,,Spermophilus columbianus,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,599,2865,,,,,,3,TRUE,FALSE
+Goldman's Woodrat,Neotoma goldmani,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Angel de la Guarda Woodrat,Neotoma insularis,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Wyoming Ground Squirrel,Urocitellus elegans,,Spermophilus elegans,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,673,419,,,,,,4,TRUE,FALSE
+Piute Ground Squirrel,Urocitellus mollis,,Spermophilus mollis,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,1058,50,,,,,,4,TRUE,FALSE
+Richardson's Ground Squirrel,Urocitellus richardsonii,,Spermophilus richardsonii,RODENTIA,SCIURIDAE,Canada|United States,Yes,Yes,Yes,480,1249,,,,,,4,TRUE,FALSE
+Townsend's Ground Squirrel,Urocitellus townsendii,,Spermophilus townsendii,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,480,19,,,,,,4,FALSE,TRUE
+Black-tailed Woodrat,Neotoma melanura,Sonora Woodrat,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,NA,FALSE
+Washington Ground Squirrel,Urocitellus washingtoni,,Spermophilus washingtoni,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,107,5,,,,,,4,TRUE,FALSE
+Mohave Ground Squirrel,Xerospermophilus mohavensis,,Spermophilus mohavensis,RODENTIA,SCIURIDAE,United States,Yes,Yes,Yes,95,4,,,,,,3,TRUE,FALSE
+Nelson's Woodrat,Neotoma nelsoni,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+BolaÃ±os Woodrat,Neotoma palatina,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Sonoran Woodrat,Neotoma phenax,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Painted Woodrat,Neotoma picta,,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,NA,FALSE
+Spotted Ground Squirrel,Xerospermophilus spilosoma,,Spermophilus spilosoma,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,1383,467,,,,,,3,TRUE,FALSE
+Magdalena Woodrat,Xenomys nelsoni,Magdalena Rat,,RODENTIA,CRICETIDAE,Mexico,No,Yes,,,,,,,,,NA,TRUE,FALSE
+Golden Mouse,Ochrotomys nuttalli,,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,3,TRUE,FALSE
+Chinanteco Deermouse,Habromys chinanteco,Chinanteco Crested-tail Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Delicate Deermouse,Habromys delicatulus,Delicate Crested-tail Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Ixtlan Deermouse,Habromys ixtlani,Ixtlan Crested-tail Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Zempoaltepec Deermouse,Habromys lepturus,Zempoaltepec Crested-tail Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Crested-tailed Deermouse,Habromys lophurus,Crested-tailed Mouse,,RODENTIA,CRICETIDAE,Mexico|Guatemala|El Salvador,,No,,,,,,,,,NA,TRUE,FALSE
+Schmidly's Deermouse,Habromys schmidlyi,Schmidly's Crested-tail Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Xico Deermouse,Habromys simulatus,Jico Crested-tail Mouse|Jico Deermouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Oaxacan Big-toothed Deermouse,Megadontomys cryophilus,Oaxacan Giant Deermouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Nelson's Big-toothed Deermouse,Megadontomys nelsoni,Nelson's Giant Deer Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Thomas's Big-toothed Deermouse,Megadontomys thomasi,Thomas's Deermouse|Thomas's Giant Deer Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Volcano Deermouse,Neotomodon alstoni,Mexican Volcano Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Chihuahuan Grasshopper Mouse,Onychomys arenicola,Mearns's Grasshopper Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Northern Grasshopper Mouse,Onychomys leucogaster,,,RODENTIA,CRICETIDAE,Canada|United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Southern Grasshopper Mouse,Onychomys torridus,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Osgood's Deermouse,Osgoodomys banderanus,Michoacan Deermouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Oaxacan Rock Deermouse,Peromyscus amplus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Yukon Deermouse,Peromyscus arcticus,,,RODENTIA,CRICETIDAE,Canada,,No,,,,,,,,,NA,NA,FALSE
+Texas Deermouse,Peromyscus attwateri,Texas Mouse,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Aztec Deermouse,Peromyscus aztecus,Aztec Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Orizaba Deermouse,Peromyscus beatae,,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras|El Salvador,,No,,,,,,,,,NA,TRUE,FALSE
+Brush Deermouse,Peromyscus boylii,Brush Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Perote Deermouse,Peromyscus bullatus,Perote Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+California Deermouse,Peromyscus californicus,California Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Monserrat Island Deermouse,Peromyscus caniceps,Burt's Deermouse|Montserrat Island Canyon Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Carleton's Deermouse,Peromyscus carletoni,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Carol Patton's Deermouse,Peromyscus carolpattonae,,,RODENTIA,CRICETIDAE,Guatemala|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Jalisco Deermouse,Peromyscus chrysopus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Tamaulipas White-ankled Deermouse,Peromyscus collinus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Cordillera Deermouse,Peromyscus cordillerae,Oaxacan Deermouse,,RODENTIA,CRICETIDAE,Mexico|Guatemala|El Salvador|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Canyon Deermouse,Peromyscus crinitus,Canyon Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Dickey's Deermouse,Peromyscus dickeyi,Dickey's Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Southern Rock Deermouse,Peromyscus difficilis,Zacatecan Deermouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Ensink's Deermouse,Peromyscus ensinki,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Cactus Deermouse,Peromyscus eremicus,Cactus Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Southern Baja Deermouse,Peromyscus eva,Eva's Desert Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Felipe's Rock Deermouse,Peromyscus felipensis,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Baja Deermouse,Peromyscus fraterculus,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Blackish Deermouse,Peromyscus furvus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Gambel's Deermouse,Peromyscus gambelii,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Cotton Deermouse,Peromyscus gossypinus,Cotton Mouse|Key Largo Cotton Mouse,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Saxicoline Deermouse,Peromyscus gratus,Osgood's Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Greenbaum's Deermouse,Peromyscus greenbaumi,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+La Guarda Deermouse,Peromyscus guardia,Angel Island Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Naked-eared Deermouse,Peromyscus gymnotis,,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Nicaragua?,,No,,,,,,,,,NA,TRUE,FALSE
+Hooper's Deermouse,Peromyscus hooperi,Hooper's Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Transvolcanic Deermouse,Peromyscus hylocetes,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+North-western Deermouse,Peromyscus keeni,Keen's Mouse,,RODENTIA,CRICETIDAE,Alaska|Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Kilpatrick's Deermouse,Peromyscus kilpatricki,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Southern Deermouse,Peromyscus labecula,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern White-ankled Deermouse,Peromyscus laceianus,Lacey's White-ankled Mouse,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,NA,NA,FALSE
+Wide-rostrum Deermouse,Peromyscus latirostris,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+White-footed Deermouse,Peromyscus leucopus,White-footed Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Tehuantepec Deermouse,Peromyscus leucurus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Nimble-footed Deermouse,Peromyscus levipes,Nimble-footed Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Tres Marias Deermouse,Peromyscus madrensis,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Eastern Deermouse,Peromyscus maniculatus,North American Deermouse,,RODENTIA,CRICETIDAE,Canada|United States,,No,,,,,,,,,4,TRUE,FALSE
+Broad-faced Deermouse,Peromyscus megalops,Brown Deermouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Puebla Deermouse,Peromyscus mekisturus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Black-wristed Deermouse,Peromyscus melanocarpus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Plateau Deermouse,Peromyscus melanophrys,Plateau Mouse|Black-eyed Deermouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Black-eared Deermouse,Peromyscus melanotis,Black-eared Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Black-tailed Deermouse,Peromyscus melanurus,Black-tailed Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Merriam's Deermouse,Peromyscus merriami,Merriam's Mouse|Mesquite Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Mexican Deermouse,Peromyscus mexicanus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Small-footed Deermouse,Peromyscus micropus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Northern Rock Deermouse,Peromyscus nasutus,Northern Rock Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+El Carrizo Deermouse,Peromyscus ochraventer,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Southern White-ankled Deermouse,Peromyscus pectoralis,Encinal Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Tawny Deermouse,Peromyscus perfulvus,Marsh Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Oldfield Deermouse,Peromyscus polionotus,Beach Mouse|Alabama Beach Mouse|Anastasia Island Beach Mouse|Choctawhatchee Beach Mouse|Perdido Key Beach Mouse|Saint Andrews Beach Mouse,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Chihuahuan Deermouse,Peromyscus polius,Chihuahuan Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Purepechus Deermouse,Peromyscus purepechus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Michoacan Deermouse,Peromyscus sagax,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Durango Deermouse,Peromyscus schmidlyi,Schmidly's Deermouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Santa Cruz Deermouse,Peromyscus sejugis,Santa Cruz Island Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Sinaloan Deermouse,Peromyscus simulus,Nayarit Deermouse|Nayarit Mouse|Sinaloan Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Catalina Deermouse,Peromyscus slevini,Slevin's Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Western Deermouse,Peromyscus sonoriensis,,,RODENTIA,CRICETIDAE,Alaska|Canada|United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Gleaning Deermouse,Peromyscus spicilegus,Gleaning Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+San Esteban Deermouse,Peromyscus stephani,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Totontepec Deermouse,Peromyscus totontepecus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Pinyon Deermouse,Peromyscus truei,Pinyon Mouse,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Coalcoman Deermouse,Peromyscus winkelmanni,Forest Mouse|Winkelmann's Deermouse|Winkelmann's Mouse,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Yucatan Deermouse,Peromyscus yucatanicus,,,RODENTIA,CRICETIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Zamora Deermouse,Peromyscus zamorae,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Chiapan Deermouse,Peromyscus zarhynchus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Florida Deermouse,Podomys floridanus,Florida Mouse,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Oaxacan Highlands Harvest Mouse,Reithrodontomys albilabris,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Sonoran Harvest Mouse,Reithrodontomys burti,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Volcano Harvest Mouse,Reithrodontomys chrysopsis,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Fulvous Harvest Mouse,Reithrodontomys fulvescens,,,RODENTIA,CRICETIDAE,United States|Mexico|Guatemala|Honduras|El Salvador|Nicaragua,,No,,,,,,,,,4,TRUE,FALSE
+Slender Harvest Mouse,Reithrodontomys gracilis,,,RODENTIA,CRICETIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica,,No,,,,,,,,,NA,TRUE,FALSE
+Hairy Harvest Mouse,Reithrodontomys hirsutus,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Eastern Harvest Mouse,Reithrodontomys humulis,,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Western Harvest Mouse,Reithrodontomys megalotis,Southern Marsh Harvest Mouse,,RODENTIA,CRICETIDAE,Canada|United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Mexican Harvest Mouse,Reithrodontomys mexicanus,,,RODENTIA,CRICETIDAE,Mexico|Guatemala|El Salvador|Honduras|Nicaragua|Colombia|Ecuador,,No,,,,,,,,,NA,TRUE,FALSE
+Small-toothed Harvest Mouse,Reithrodontomys microdon,,,RODENTIA,CRICETIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Plains Harvest Mouse,Reithrodontomys montanus,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Salt-marsh Harvest Mouse,Reithrodontomys raviventris,,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,TRUE,FALSE
+Cozumel Harvest Mouse,Reithrodontomys spectabilis,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,FALSE,TRUE
+Sumichrast's Harvest Mouse,Reithrodontomys sumichrasti,,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,TRUE,FALSE
+Narrow-nosed Harvest Mouse,Reithrodontomys tenuirostris,,,RODENTIA,CRICETIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Wagner's Harvest Mouse,Reithrodontomys wagneri,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Zacatecan Harvest Mouse,Reithrodontomys zacatecae,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Mexican Water Mouse,Rheomys mexicanus,Goodwin's Water Mouse|Mexican Ichthyomyine,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Thomas's Water Mouse,Rheomys thomasi,Thomas' Ichthyomyine,,RODENTIA,CRICETIDAE,Mexico|Guatemala|El Salvador|Honduras?,,No,,,,,,,,,NA,NA,FALSE
+Alfaro's Rice Rat,Handleyomys alfaroi,Alfaro's Oryzomys,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Ecuador,,No,,,,,,,,,NA,TRUE,FALSE
+Chapman's Rice Rat,Handleyomys chapmani,Chapman's Oryzomys,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Guerrero Rice Rat,Handleyomys guerrerensis,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Black-eared Rice Rat,Handleyomys melanotis,Black-eared Oryzomys,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Highland Rice Rat,Handleyomys rhabdops,Highland Oryzomys|Striped Rice Rat,,RODENTIA,CRICETIDAE,Mexico|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+Long-nosed Rice Rat,Handleyomys rostratus,Long-nosed Oryzomys,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua,,No,,,,,,,,,NA,TRUE,FALSE
+Cloud Forest Rice Rat,Handleyomys saturatior,Cloud Forest Oryzomys,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua,,No,,,,,,,,,NA,TRUE,FALSE
+Fulvous Pygmy Rice Rat,Oligoryzomys fulvescens,Fulvous Colilargo|Northern Pygmy Rice Rat,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Belize|Honduras|El Salvador|Nicaragua,,No,,,,,,,,,NA,TRUE,FALSE
+White-bellied Marsh Rice Rat,Oryzomys albiventer,White Venter Rice Rat,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Coues's Marsh Rice Rat,Oryzomys couesi,Coues's Oryzomys|Coues's Rice Rat,,RODENTIA,CRICETIDAE,United States|Mexico|Guatemala|Belize|El Salvador|Honduras|Nicaragua|Costa Rica|Panama|Colombia,,No,,,,,,,,,4,NA,FALSE
+Common Marsh Rice Rat,Oryzomys palustris,Marsh Oryzomys|Rice Meadow Mouse|Swamp Rice Rat,,RODENTIA,CRICETIDAE,United States,,No,,,,,,,,,4,NA,FALSE
+Texas Marsh Rice Rat,Oryzomys texensis,Texan Rice Rat,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,NA,NA,FALSE
+Allen's Cotton Rat,Sigmodon alleni,Brown Cotton Rat,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Arizona Cotton Rat,Sigmodon arizonae,Colorado River Cotton Rat,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Tawny-bellied Cotton Rat,Sigmodon fulviventer,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Burmeister's Cotton Rat,Sigmodon hirsutus,Southern Cotton Rat,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama|Colombia|Venezuela,,No,,,,,,,,,NA,TRUE,FALSE
+Hispid Cotton Rat,Sigmodon hispidus,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+White-eared Cotton Rat,Sigmodon leucotis,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+West Mexican Cotton Rat,Sigmodon mascotensis,Jaliscan Cotton Rat,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Yellow-nosed Cotton Rat,Sigmodon ochrognathus,,,RODENTIA,CRICETIDAE,United States|Mexico,,No,,,,,,,,,4,TRUE,FALSE
+Miahuatlan Cotton Rat,Sigmodon planifrons,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Toltec Cotton Rat,Sigmodon toltecus,,,RODENTIA,CRICETIDAE,Mexico|Belize|Guatemala|Honduras,,No,,,,,,,,,NA,TRUE,FALSE
+Montane Cotton Rat,Sigmodon zanjonensis,,,RODENTIA,CRICETIDAE,Mexico|Guatemala|Honduras,,No,,,,,,,,,NA,NA,FALSE
+Sumichrast's Vesper Rat,Nyctomys sumichrasti,Vesper Rat,,RODENTIA,CRICETIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica|Panama,,No,,,,,,,,,NA,TRUE,FALSE
+Yucatan Vesper Rat,Otonyctomys hatti,Hatt's Vesper Mouse|Hatt's Vesper Rat|Yucatan Vesper Mouse,,RODENTIA,CRICETIDAE,Mexico|Belize|Guatemala,,No,,,,,,,,,NA,TRUE,FALSE
+La Pera Climbing Rat,Ototylomys chiapensis,La Pera Big-eared Climbing Rat,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,NA,FALSE
+Big-eared Climbing Rat,Ototylomys phyllotis,,,RODENTIA,CRICETIDAE,Mexico|Belize|Guatemala|Honduras|El Salvador|Nicaragua|Costa Rica,,No,,,,,,,,,NA,TRUE,FALSE
+Chiapan Climbing Rat,Tylomys bullaris,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Peters's Climbing Rat,Tylomys nudicaudus,,,RODENTIA,CRICETIDAE,Mexico|Belize|Guatemala|El Salvador|Honduras|Nicaragua,,No,,,,,,,,,NA,TRUE,FALSE
+Tumbala Climbing Rat,Tylomys tumbalensis,,,RODENTIA,CRICETIDAE,Mexico,,No,,,,,,,,,NA,TRUE,FALSE
+Round-tailed Ground Squirrel,Xerospermophilus tereticaudus,,Spermophilus tereticaudus,RODENTIA,SCIURIDAE,United States|Mexico,Yes,Yes,Yes,921,1436,,,,,,3,TRUE,FALSE
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,FALSE,TRUE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,FALSE,TRUE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,FALSE,TRUE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,FALSE,TRUE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,4,NA,FALSE
+,,,,,,,,,,,,,,,,,4,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,4,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,NA,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,NA,TRUE,FALSE
+,,,,,,,,,,,,,,,,,3,TRUE,FALSE

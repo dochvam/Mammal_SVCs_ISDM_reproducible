@@ -1,0 +1,34 @@
+taxon_genus,taxon_spec,common_name,num_obs,num_cameras,num_arrays,sci_name,phylo_data,num_lineages,est_coverage,ignore_polygons,papers_used,comments
+Alces,alces,Moose,647,184,24,Alces alces,yes,1-4,,,,
+Antilocapra,americana,Pronghorn,1105,160,12,Antilocapra americana,yes,1,NA,,NA,
+Bison,bison,American Bison,2478,166,6,Bison bison,no,NA,NA,,NA,
+Canis,latrans,Coyote,20916,4756,399,Canis latrans,yes,1,NA,,NA,
+Canis,lupus,Grey Wolf,250,105,14,Canis lupus,yes,1,NA,,NA,
+Cervus,canadensis,Elk,3423,350,27,Cervus canadensis,no,NA,NA,,NA,
+Colaptes,auratus,Northern Flicker,216,115,56,Colaptes auratus,NA,NA,NA,,NA,
+Dasypus,novemcinctus,Nine-banded Armadillo,4239,801,58,Dasypus novemcinctus,yes,2,50,yes,Arteaga 2012,Only northern Mexico sampled so no lineage info where we have camera trap data
+Didelphis,virginiana,Virginia Opossum,18276,3294,335,Didelphis virginiana,no,NA,NA,,NA,
+Erethizon,dorsatum,North American Porcupine,469,173,43,Erethizon dorsatum,no,NA,NA,,NA,
+Lepus,americanus,Snowshoe Hare,1707,214,37,Lepus americanus,yes,3,75,yes,"Melo-ferreira 2014, Cheng 2014, Jones 2020",Well sampled when combining info from all three papers. But some polygons in plains not sampled so ignore those
+Lepus,californicus,Black-tailed Jackrabbit,997,114,22,Lepus californicus,no,NA,NA,,NA,
+Lynx,rufus,Bobcat,3922,1608,258,Lynx rufus,yes,2,75,yes,Reding 2012,Mexico not sampled but very likely the same lineage as western. Ignore polygons are small 
+Marmota,monax,Woodchuck,1325,263,74,Marmota monax,yes,1,NA,,NA,
+Mephitis,mephitis,Striped Skunk,2075,669,162,Mephitis mephitis,yes,4,75,yes,Barton 2012,"No samples in Canada, Washington state, or southern California. Sort of a complicated one with multiple lineages and hard to tell exactly where to draw breaks"
+Odocoileus,hemionus,Mule Deer,15174,985,65,Odocoileus hemionus,yes,3,80,yes,Latch 2014,Ignore polygons are small and on east coast
+Odocoileus,virginianus,White-tailed Deer,284566,12507,402,Odocoileus virginianus,yes,2,25,yes,Ambriz-Morales 2016,Small part of range sampled and sample size is small. May not be useful - no overlap with camera data
+Pekania,pennanti,Fisher,312,183,38,Pekania pennanti,yes,1,NA,,NA,
+Procyon,lotor,Northern Raccoon,68898,6743,399,Procyon lotor,yes,3,NA,,NA,
+Puma,concolor,Puma,270,127,21,Puma concolor,yes,1,NA,,NA,
+Sciurus,carolinensis,Eastern Gray Squirrel,166057,6411,344,Sciurus carolinensis,yes,2,25,yes,Moncrief 2012,Southeast portion of range sampled
+Sciurus,griseus,Western Gray Squirrel,941,117,21,Sciurus griseus,no,NA,NA,,NA,
+Sciurus,niger,Bryant's Fox Squirrel,16921,652,69,Sciurus niger,yes,1,NA,,NA,
+Sus,scrofa,Wild Boar,8129,638,55,Sus scrofa,no,NA,NA,,NA,
+Sylvilagus,audubonii,Desert Cottontail,2635,103,13,Sylvilagus audubonii,no,NA,NA,,NA,
+Sylvilagus,floridanus,Eastern Cottontail,16739,1814,275,Sylvilagus floridanus,no,NA,NA,,NA,
+Tamias,striatus,Eastern Chipmunk,14878,821,124,Tamias striatus,yes,3,60,yes,Rowe 2006,"Center of range sampled but southern, western, and northeastern part of range not sampled"
+Tamiasciurus,douglasii,Douglas's Squirrel,1937,145,18,Tamiasciurus douglasii,yes,2,80,yes,Chavez 2013,Ignore observations in midwest and east. Also no need to draw a break because the two lineages are disjunct
+Tamiasciurus,hudsonicus,Red Squirrel,7733,489,65,Tamiasciurus hudsonicus,yes,5,70,yes,Hope 2016,Complicated one: IUCN doesn't include ABC island part of range but drew split there anyway because there are iNat observations there. IUCN range includes the Fremont squirrel range but we should ignore that given it's a different species
+Urocyon,cinereoargenteus,Grey Fox,4851,1151,232,Urocyon cinereoargenteus,yes,2,55,yes,Reding 2021,Mexico not sampled. It's likely mostly western but could also be a different lineage
+Ursus,americanus,American Black Bear,14865,2461,176,Ursus americanus,yes,3,,,,
+Vulpes,vulpes,Red Fox,10446,1707,207,Vulpes vulpes,yes,4,,,,
+NA,NA,Wild Pig,2095,121,18,NA NA,NA,NA,NA,,NA,
