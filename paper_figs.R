@@ -1,3 +1,15 @@
+###############################################################################
+#'
+#' paper_figs.R
+#' Author: Ben R. Goldstein
+#' Description: This behemoth of a file processes all the output from 
+#'    run_models_lineage.R and run_models_nolineage.R. It produces the main
+#'    graphs used in the manuscript and supplement and also produces predictions
+#'    of the intensity field for all species across the study area. It depends 
+#'    on main_code_nolineage/vis_fn.R for a lot of the most interesting 
+#'    operations.
+#'
+###############################################################################
 
 library(tidyverse)
 library(coda)
