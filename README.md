@@ -33,8 +33,8 @@ Files containing iNaturalist counts, camera trap detection histories,
 and spatial covariate data are hosted on Zenodo as they exceed the 
 allowable file size for Github. To retrieve these, go to the following link and download the files from Zenodo:
 
-\[Link does not exist yet; come back soon!\]
+[https://doi.org/10.5281/zenodo.14219130](https://doi.org/10.5281/zenodo.14219130)
 
-Place the unzipped files in the directory `intermediate/`, and the repository should then function as intended.
+Place the unzipped files from `model_inputs/` in the directory `intermediate/`, and the repository should then function as intended.
 
 The auxiliary data also include a README.txt file that describe the contents of each file.
