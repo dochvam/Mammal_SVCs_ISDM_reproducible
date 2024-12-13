@@ -807,6 +807,7 @@ fit_integrated_model_with_CV <- function(nfolds,
       wdat_holdout = as.matrix(det_x_holdout[, det_covars])
     )
     
+    
     ##### Build and compile the model #####
     build_start_time <- Sys.time()
     mod <- nimbleModel(code = model_code,

@@ -19,9 +19,6 @@ source("setup_code/define_fundamentals_nolineage.R")
 
 continent_crs <- '+proj=aea +lat_1=20 +lat_2=60 +lat_0=40 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83'
 
-combined_land <- vect("intermediate/NAm_spatial.shp")
-land_overlay  <- vect("intermediate/country_borders.shp")
-
 #### Create a spatial grid covering North America, the "continental grid" ####  continental_grid_scale2 <- rast("intermediate/continental_grid_scale2.grd")
 continental_grid_scale3 <- rast("intermediate/continental_grid_scale3.grd")
 continental_grid_scale4 <- rast("intermediate/continental_grid_scale4.grd")

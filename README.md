@@ -8,15 +8,28 @@ with the manuscript. For full methodological details, see the main manuscript.
 
 ## Organization of code
 
-This repository contains .R code for reproducing the model estimation pipeline presented in the manuscript. 
+This repository contains .R code for reproducing the model estimation pipeline
+presented in the manuscript.
 
-There are three core files in the main directory for reproducing modeling: `run_models_lineage.R`, which executes the full model estimation pipeline for species with phylogeographic information; `run_models_nolineage.R`, which executes the full model estimation pipeline for all species, discounting phylogeographic information; and `run_simulation.R`, which executes the simulation-based validation exercise presented in the manuscript. 
+There are three core files in the main directory for reproducing modeling:
+`run_models_lineage.R`, which executes the full model estimation pipeline for
+species with phylogeographic information; `run_models_nolineage.R`, which
+executes the full model estimation pipeline for all species, discounting
+phylogeographic information; and `run_simulation.R`, which executes the
+simulation-based validation exercise presented in the manuscript.
+Two files are provided for summarizing model output: `summarize.R` executes
+post-model-fitting summary analyses including evaluating support for the core
+hypotheses and producing predictive maps of species density; and `paper_figs.R`
+produces figures.
 
-Two files are provided for summarizing model output: `summarize.R` executes post-model-fitting summary analyses including evaluating support for the core hypotheses and producing predictive maps of species density; and `paper_figs.R` produces figures.
+The file `necessary_packages.R` loads in all the necessary packages required for
+all scripts. It is not necessary to execute this file but it is provided so you
+can check that all necessary packages are loaded.
 
-The file `necessary_packages.R` loads in all the necessary packages required for all scripts. It is not necessary to execute this file but it is provided so you can check that all necessary packages are loaded.
-
-Be aware that analyses presented are very slow and took us weeks to execute in full. In the model execution files, analyses are coded to execute in parallel (across species or simulation scenario models) and the number of cores is specified, though this number may not be appropriate for all systems.
+Be aware that analyses presented are very slow and took us weeks to execute in
+full. In the model execution files, analyses are coded to execute in parallel
+(across species or simulation scenario models) and the number of cores is
+specified, though this number may not be appropriate for all systems.
 
 
 Helper code is organized into the following directories:
@@ -35,6 +48,7 @@ allowable file size for Github. To retrieve these, go to the following link and 
 
 [https://doi.org/10.5281/zenodo.14219130](https://doi.org/10.5281/zenodo.14219130)
 
-Place the unzipped files from `model_inputs/` in the directory `intermediate/`, and the repository should then function as intended.
+Place the unzipped files from the `model_inputs/` Zenodo subdirectory into the 
+directory `intermediate/`, and the repository should then function as intended.
 
 The auxiliary data also include a README.txt file that describe the contents of each file.
