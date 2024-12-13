@@ -10,6 +10,7 @@
 library(nimbleEcology)
 library(tidyverse)
 library(parallel)
+library(coda)
 
 # Load helper fns
 source("main_code_lineage/model_fn.R")
@@ -36,8 +37,9 @@ for (i in 1:length(target_species)) {
   if (length(this_results) > 0) {
     temp <- lapply(this_results, function(x) {
       thisres <- readRDS(x)
-      thisres$samples_list[[1]]$samples
-    })
+      thisres$samples_list[[1]]$samples %>% as.list()
+    }) %>% 
+      do.call(what = c)
     
     temp <- mcmc.list(temp)
     
@@ -95,7 +97,7 @@ for (i in 1:length(target_species)) {
     modtype = "joint",
     species = "', target_species[i], '",
     spatial_model = "SVCs",
-    ni = 12000, nb = 2000,
+    ni = 10000, nb = 2000,
     nc = 3, nt = 2, nt2 = 10,
     seed = ', seed_vec[this_round], ', subset_CT = 1,
     subset_inat = 1, suffix = "_main_', this_round, '"

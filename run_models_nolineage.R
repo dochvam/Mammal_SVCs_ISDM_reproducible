@@ -13,17 +13,67 @@
 library(nimbleEcology)
 library(tidyverse)
 library(parallel)
+library(coda)
 
 # Load helper fns
 source("main_code_nolineage/model_fn.R")
 source("main_code_nolineage/model_code_main.R")
 source("setup_code/define_fundamentals_nolineage.R")
 
-# Don't re-run models if outputs exist
-overwrite <- FALSE
 
 # Retrieve the list of species
 target_species <- taxon_key$common_name_clean
+
+
+# Retrieve the list of species
+target_species <- taxon_key$common_name_clean
+
+result_files <- list.files("intermediate/integration_results/",
+                           pattern = "_noLineage",
+                           full.names = TRUE)
+
+res_list <- list()
+
+for (i in 1:length(target_species)) {
+  this_results <- result_files[grep(target_species[i], result_files)]
+  
+  if (length(this_results) > 0) {
+    temp <- lapply(this_results, function(x) {
+      thisres <- readRDS(x)
+      thisres$samples_list[[1]]$samples %>% as.list()
+    }) %>% 
+      do.call(what = c)
+    
+    temp <- mcmc.list(temp)
+    
+    res_list[[i]] <- temp %>% 
+      MCMCvis::MCMCsummary() %>% 
+      .["logDens",] %>% 
+      mutate(nres = length(this_results),
+             species = target_species[i])
+  }
+}
+
+
+if (length(result_files) == 0) {
+  this_round <- 1
+} else {
+  this_round <- max(parse_number(result_files)) + 1
+  res_df <- bind_rows(res_list) %>% 
+    mutate(finished = Rhat <= 1.1 | n.eff >= 250)
+  
+  target_species <- target_species[!target_species %in% res_df$species[res_df$finished]]
+}
+
+
+outfiles <- c()
+ct <- 0
+overwrite <- F
+
+set.seed(2976746)
+seed_vec <- floor(runif(100, 0, 1) * 100000)
+
+
 
 ### Now, we create a single script in the temp/source directory for each species
 ### so that all species models can be estimated in parallel
@@ -69,10 +119,10 @@ for (i in 1:length(target_species)) {
       species = "', target_species[i], '",
       spatial_model = "SVCs",
       ni = 10000, nb = 2000,
-      nc = 5, nt = 2, nt2 = 10,
-      seed = 3063446, subset_CT = 1,
-      subset_inat = 1, suffix = "_main",
-      overwrite = ', overwrite, '
+      nc = 3, nt = 2, nt2 = 10,
+      seed = ', seed_vec[this_round], ', subset_CT = 1,
+      subset_inat = 1, suffix = "_main_', this_round, '",
+      overwrite = FALSE
     )
     '), file = this_outfile)
   }
@@ -80,7 +130,7 @@ for (i in 1:length(target_species)) {
 
 write("============== New run ==============", file = "log.txt", append = TRUE)
 
-cl <- makeCluster(4)
+cl <- makeCluster(16)
 
 # Execute the model estimates
 parLapply(cl, outfiles, source)
