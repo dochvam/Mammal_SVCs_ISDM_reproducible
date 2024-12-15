@@ -70,7 +70,7 @@ outfiles <- c()
 ct <- 0
 overwrite <- F
 
-set.seed(2976746)
+set.seed(9093464)
 seed_vec <- floor(runif(100, 0, 1) * 100000)
 
 
@@ -130,7 +130,7 @@ for (i in 1:length(target_species)) {
 
 write("============== New run ==============", file = "log.txt", append = TRUE)
 
-cl <- makeCluster(16)
+cl <- makeCluster(13)
 
 # Execute the model estimates
 parLapply(cl, outfiles, source)
