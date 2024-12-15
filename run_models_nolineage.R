@@ -46,11 +46,14 @@ for (i in 1:length(target_species)) {
     
     temp <- mcmc.list(temp)
     
-    res_list[[i]] <- temp %>% 
+    temp2 <- window(temp, start = 1501)
+    
+    res_list[[i]] <- temp2 %>% 
       MCMCvis::MCMCsummary() %>% 
       .["logDens",] %>% 
       mutate(nres = length(this_results),
              species = target_species[i])
+
   }
 }
 
@@ -60,7 +63,7 @@ if (length(result_files) == 0) {
 } else {
   this_round <- max(parse_number(result_files)) + 1
   res_df <- bind_rows(res_list) %>% 
-    mutate(finished = Rhat <= 1.1 | n.eff >= 250)
+    mutate(finished = (Rhat <= 1.1 & n.eff >= 100) | n.eff >= 300)
   
   target_species <- target_species[!target_species %in% res_df$species[res_df$finished]]
 }
@@ -118,8 +121,8 @@ for (i in 1:length(target_species)) {
       modtype = "joint",
       species = "', target_species[i], '",
       spatial_model = "SVCs",
-      ni = 10000, nb = 2000,
-      nc = 3, nt = 2, nt2 = 10,
+      ni = 20000, nb = 10000,
+      nc = 2, nt = 2, nt2 = 10,
       seed = ', seed_vec[this_round], ', subset_CT = 1,
       subset_inat = 1, suffix = "_main_', this_round, '",
       overwrite = FALSE
@@ -130,7 +133,7 @@ for (i in 1:length(target_species)) {
 
 write("============== New run ==============", file = "log.txt", append = TRUE)
 
-cl <- makeCluster(16)
+cl <- makeCluster(14)
 
 # Execute the model estimates
 parLapply(cl, outfiles, source)

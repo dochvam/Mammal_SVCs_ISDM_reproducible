@@ -23,11 +23,6 @@ target_species <- taxon_key$common_name_clean
 result_files <- list.files("intermediate/integration_results/",
                            pattern = "_lineage",
                            full.names = TRUE)
-if (length(result_files) == 0) {
-  this_round <- 1
-} else {
-  this_round <- max(parse_number(result_files)) + 1
-}
 
 res_list <- list()
 
@@ -43,7 +38,9 @@ for (i in 1:length(target_species)) {
     
     temp <- mcmc.list(temp)
     
-    res_list[[i]] <- temp %>% 
+    temp2 <- window(temp, start = 1501)
+    
+    res_list[[i]] <- temp2 %>% 
       MCMCvis::MCMCsummary() %>% 
       .["logDens",] %>% 
       mutate(nres = length(this_results),
@@ -51,10 +48,16 @@ for (i in 1:length(target_species)) {
   }
 }
 
-res_df <- bind_rows(res_list) %>% 
-  mutate(finished = Rhat <= 1.1 | n.eff >= 250)
+if (length(result_files) == 0) {
+  this_round <- 1
+} else {
+  this_round <- max(parse_number(result_files)) + 1
+  res_df <- bind_rows(res_list) %>% 
+    mutate(finished = (Rhat <= 1.1 & n.eff >= 100) | n.eff >= 300)
+  
+  target_species <- target_species[!target_species %in% res_df$species[res_df$finished]]
+}
 
-target_species <- target_species[!target_species %in% res_df$species[res_df$finished]]
 
 outfiles <- c()
 ct <- 0
@@ -92,16 +95,17 @@ for (i in 1:length(target_species)) {
   cat(paste0(preamble, i, '
   
   fit_integrated_model_with_CV(
-    nfolds = 0               ,
-    inat_disttype = "NB",
-    modtype = "joint",
-    species = "', target_species[i], '",
-    spatial_model = "SVCs",
-    ni = 10000, nb = 2000,
-    nc = 3, nt = 2, nt2 = 10,
-    seed = ', seed_vec[this_round], ', subset_CT = 1,
-    subset_inat = 1, suffix = "_main_', this_round, '"
-  )
+      nfolds = 0               ,
+      inat_disttype = "NB",
+      modtype = "joint",
+      species = "', target_species[i], '",
+      spatial_model = "SVCs",
+      ni = 20000, nb = 10000,
+      nc = 2, nt = 2, nt2 = 10,
+      seed = ', seed_vec[this_round], ', subset_CT = 1,
+      subset_inat = 1, suffix = "_main_', this_round, '",
+      overwrite = FALSE
+    )
   '), file = this_outfile)
   
 }
