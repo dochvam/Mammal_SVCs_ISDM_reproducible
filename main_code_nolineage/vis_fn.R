@@ -875,43 +875,26 @@ plot_SVC_relimportance <- function(result, species, suffix,
 }
 
 # use sig_only = TRUE to gray out covar effects that overlap zero
-plot_SVC_effect <- function(result, param, species, suffix, 
+plot_SVC_effect <- function(param, species, suffix, 
                             write.out = TRUE, thin = 10) {
   
-  occ_covars <- gsub("_scaled", "", result$occ_covars)
+  occ_covars_clean <- gsub("_scaled", "", occ_covars)
+  # occ_covars <- gsub("_scaled", "", result$occ_covars)
   
   # What's the index of the param we asked for?
-  stopifnot(param %in% occ_covars)
-  param_ind <- which(occ_covars == param)
+  stopifnot(param %in% occ_covars_clean)
+  param_ind <- which(occ_covars_clean == param)
   
-  if (!exists("grid_translator_wspec")) source("main_code/main_data_prep.R")
+  if (!exists("grid_translator_wspec")) source("main_code_nolineage/main_data_prep.R")
   
-  samples_names <- colnames(result$samples_list[[1]]$samples$chain1)
-  samples2_names <- colnames(result$samples_list[[1]]$samples2$chain1)
-  
-  cell_inds <- which(grepl(paste0("^lambda_beta\\[\\d*, ", param_ind, "\\]$"), 
-                           samples2_names))
-  spatcell <- parse_number(samples2_names[cell_inds])
-  
-  samples2 <- result$samples_list %>% 
-    lapply(function(x) {
-      
-      mtx <- as.data.frame(as.matrix(x$samples2))
-      rows <- thin * 1:(nrow(mtx)/thin)
-      mtx[rows, cell_inds]
-      
-    }) %>% 
-    bind_rows()
-  
-  # calculate means and sds of effects
-  effs <- data.frame(
-    scale4_grid_ID = spatcell,
-    mean = colMeans(samples2),
-    sd = apply(samples2, 2, sd)
-  ) %>% 
+  effs <- read_csv(paste0("lambda_beta_results/", species, "_lambda_beta_summary.csv"),
+                   show_col_types = FALSE) %>% 
     mutate(
-      nonzero  = sign(mean + 1.96*sd) == sign(mean - 1.96*sd)
-    )
+      parnum = parse_number(substr(param, nchar(param) - 2, nchar(param))),
+      scale4_grid_ID = parse_number(param),
+      nonzero  = sign(`2.5%`) == sign(`97.5%`)
+    ) %>% 
+    filter(parnum == param_ind)
   
   colnames(grid_translator_wspec)[
     colnames(grid_translator_wspec) == paste0("GRID_ID_", species)
@@ -936,29 +919,81 @@ plot_SVC_effect <- function(result, param, species, suffix,
   
   # Make plot with significance filtering
   thisras <- continental_grid_scale4
-  values(thisras)[!is.na(values(continental_grid_scale4))] <- 0
-  
-  values(thisras)[values(continental_grid_scale4) %in% effs_wcell$scale4_grid_ID] <-
-    effs_wcell$mean * as.numeric(effs_wcell$nonzero)
-  
-  mainplot2 <- ggplot() + 
-    geom_spatraster(data = thisras) +
-    scale_fill_gradient2("Mean eff.\n(Filtered)")
+  coords <- as.data.frame(thisras, xy = TRUE)
+  xrange <- range(coords$x)
+  xrange[1] <- xrange[1] - 1e6
+  xrange[2] <- xrange[2] + 1e6
   
   
   # Make plot WITHOUT significance filtering
   thisras <- continental_grid_scale4
-  values(thisras)[!is.na(values(continental_grid_scale4))] <- 0
+  terra::values(thisras)[!is.na(terra::values(continental_grid_scale4))] <- NA
   
-  values(thisras)[values(continental_grid_scale4) %in% effs_wcell$scale4_grid_ID] <-
+  terra::values(thisras)[terra::values(continental_grid_scale4) %in% effs_wcell$scale4_grid_ID] <-
     effs_wcell$mean
+  
+  max_beta <- max(abs(terra::values(thisras)), na.rm = TRUE)
+  colors <- NatParksPalettes::natparks.pals("Olympic", n = 9)[9:1]
+  thisras_asVec <- terra::buffer(as.polygons(thisras, aggregate = F), -7000)
+  
   mainplot1 <- ggplot() + 
+    geom_spatvector(data = combined_land, fill = "white") +
+    geom_spatraster(data = thisras,
+                    alpha = 0.6) +
+    geom_spatvector(data = thisras_asVec,
+                    fill = NA,
+                    aes(color = lyr.1),
+                    alpha = 0.7, linewidth = 0.2,
+                    show.legend = FALSE) +
+    scale_fill_gradientn("Mean eff.\n(All)", 
+                         colors = colors, 
+                         values = scales::rescale(c(-max_beta, 0, max_beta)),
+                         limits = c(-max_beta, max_beta),
+                         na.value = NA) +
+    scale_color_gradientn("Mean eff.\n(All)", 
+                          colors = colors, 
+                          values = scales::rescale(c(-max_beta, 0, max_beta)),
+                          limits = c(-max_beta, max_beta),
+                          na.value = NA) +
+    xlim(xrange) +
+    theme_void()
+  
+  
+  
+  
+  terra::values(thisras)[!is.na(terra::values(continental_grid_scale4))] <- NA
+  
+  terra::values(thisras)[terra::values(continental_grid_scale4) %in% effs_wcell$scale4_grid_ID] <-
+    effs_wcell$mean * as.numeric(effs_wcell$nonzero)
+  
+  thisras_asVec <- terra::buffer(as.polygons(thisras, aggregate = F), -7000)
+  
+  mainplot2 <- ggplot() + 
     geom_spatraster(data = thisras) +
-    scale_fill_gradient2("Mean eff.\n(All)")
+    geom_spatvector(data = combined_land, fill = "white") +
+    geom_spatraster(data = thisras,
+                    alpha = 0.6) +
+    geom_spatvector(data = thisras_asVec,
+                    fill = NA,
+                    aes(color = lyr.1),
+                    alpha = 0.7, linewidth = 0.2,
+                    show.legend = FALSE) +
+    scale_fill_gradientn("Mean eff.\n(Filtered)", 
+                         colors = colors, 
+                         values = scales::rescale(c(-max_beta, 0, max_beta)),
+                         limits = c(-max_beta, max_beta),
+                         na.value = NA) +
+    scale_color_gradientn("Mean eff.\n(Filtered)", 
+                          colors = colors, 
+                          values = scales::rescale(c(-max_beta, 0, max_beta)),
+                          limits = c(-max_beta, max_beta),
+                          na.value = NA) +
+    xlim(xrange) +
+    theme_void()
   
   
   # sdras <- thisras
-  # values(sdras)[values(continental_grid_scale4) %in% effs_wcell$scale4_grid_ID] <-
+  # terra::values(sdras)[terra::values(continental_grid_scale4) %in% effs_wcell$scale4_grid_ID] <-
   #   effs_wcell$sd
   
   

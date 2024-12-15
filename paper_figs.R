@@ -22,6 +22,8 @@ species_to_exclude <- c()
 
 #### Process no-lineage svc betas
 if (!dir.exists('summary_final')) dir.create("summary_final")
+if (!dir.exists('lambda_beta_results')) dir.create("lambda_beta_results")
+if (!dir.exists('plots')) dir.create("plots")
 
 source("main_code_nolineage/model_fn.R")
 source("main_code_nolineage/model_code_main.R")
@@ -30,6 +32,7 @@ source("setup_code/define_fundamentals_nolineage.R")
 result_files <- list.files("intermediate/integration_results/", full.names = TRUE)
 result_files <- result_files[grepl('noLineage', result_files)]
 result_files <- result_files[!grepl('NOSVCS', result_files)]
+result_files <- result_files[!grepl('README', result_files)]
 
 target_species <- taxon_key$common_name_clean
 
@@ -93,6 +96,7 @@ source("setup_code/define_fundamentals.R")
 result_files <- list.files("intermediate/integration_results/", full.names = TRUE)
 result_files <- result_files[!grepl('noLineage', result_files)]
 result_files <- result_files[!grepl('NOSVCS', result_files)]
+result_files <- result_files[!grepl('README', result_files)]
 
 target_species <- taxon_key$common_name_clean
 target_species <- target_species[!target_species %in% c("mexican_flying_squirrel")]
@@ -330,6 +334,8 @@ mean(temp$n)
 
 source('main_code_nolineage/main_data_prep.R')
 source('main_code_nolineage/vis_fn.R')
+
+combined_land <- vect("intermediate/NAm_spatial.shp")
 
 for (i in 1:length(target_species)) {
   for (j in 1:length(occ_covars_clean)) {

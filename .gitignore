@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 log.txt
+summary_final
+plots
+lambda_beta_results
