@@ -46,9 +46,7 @@ for (i in 1:length(target_species)) {
     
     temp <- mcmc.list(temp)
     
-    temp2 <- window(temp, start = 1501)
-    
-    res_list[[i]] <- temp2 %>% 
+    res_list[[i]] <- temp %>% 
       MCMCvis::MCMCsummary() %>% 
       .["logDens",] %>% 
       mutate(nres = length(this_results),
