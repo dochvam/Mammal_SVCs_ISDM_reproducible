@@ -24,10 +24,6 @@ source("setup_code/define_fundamentals_nolineage.R")
 # Retrieve the list of species
 target_species <- taxon_key$common_name_clean
 
-
-# Retrieve the list of species
-target_species <- taxon_key$common_name_clean
-
 result_files <- list.files("intermediate/integration_results/",
                            pattern = "_noLineage",
                            full.names = TRUE)
