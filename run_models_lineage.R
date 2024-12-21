@@ -49,13 +49,16 @@ for (i in 1:length(target_species)) {
 if (length(result_files) == 0) {
   this_round <- 1
 } else {
-  this_round <- max(parse_number(result_files)) + 1
+  this_round <- max(parse_number(substr(result_files,
+                                        nchar(result_files) - 25, 
+                                        nchar(result_files)))) + 1
   res_df <- bind_rows(res_list) %>% 
     mutate(finished = (Rhat <= 1.1 & n.eff >= 100) | n.eff >= 300)
   
   target_species <- target_species[!target_species %in% res_df$species[res_df$finished]]
 }
 
+target_species <- target_species[target_species != "mexican_flying_squirrel"]
 
 outfiles <- c()
 ct <- 0
@@ -86,29 +89,30 @@ outfiles <- c()
 ct <- 0
 
 for (i in 1:length(target_species)) {
-  ct <- ct + 1
-  this_outfile <- paste0("temp/source/script", ct, ".R")
-  outfiles <- c(outfiles, this_outfile)
-  
-  cat(paste0(preamble, i, '
-  
-  fit_integrated_model_with_CV(
-      nfolds = 0               ,
-      inat_disttype = "NB",
-      modtype = "joint",
-      species = "', target_species[i], '",
-      spatial_model = "SVCs",
-      ni = 20000, nb = 10000,
-      nc = 2, nt = 2, nt2 = 10,
-      seed = ', seed_vec[this_round], ', subset_CT = 1,
-      subset_inat = 1, suffix = "_main_', this_round, '",
-      overwrite = FALSE
-    )
-  '), file = this_outfile)
-  
+  for (j in this_round:(this_round + 3)) {
+    ct <- ct + 1
+    this_outfile <- paste0("temp/source/script", ct, ".R")
+    outfiles <- c(outfiles, this_outfile)
+    
+    cat(paste0(preamble, i, '
+    
+    fit_integrated_model_with_CV(
+        nfolds = 0               ,
+        inat_disttype = "NB",
+        modtype = "joint",
+        species = "', target_species[i], '",
+        spatial_model = "SVCs",
+        ni = 20000, nb = 10000,
+        nc = 2, nt = 2, nt2 = 10,
+        seed = ', seed_vec[j], ', subset_CT = 1,
+        subset_inat = 1, suffix = "_main_', j, '",
+        overwrite = FALSE
+      )
+    '), file = this_outfile)
+  }
 }
 
-cl <- makeCluster(14)
+cl <- makeCluster(16)
 
 # Execute the model estimates
 parLapply(cl, outfiles, source)
