@@ -1,6 +1,6 @@
 ###############################################################################
 #'
-#' run_models_nolineage.R
+#' run_models_lineage.R
 #' Author: Ben R. Goldstein
 #' Description: Running this script will trigger the full model estimation
 #'    workflow for all 13 lineage species, including information about lineage.
@@ -89,7 +89,7 @@ outfiles <- c()
 ct <- 0
 
 for (i in 1:length(target_species)) {
-  for (j in this_round:(this_round + 3)) {
+  for (j in this_round:(this_round + 9)) {
     ct <- ct + 1
     this_outfile <- paste0("temp/source/script", ct, ".R")
     outfiles <- c(outfiles, this_outfile)
@@ -112,7 +112,7 @@ for (i in 1:length(target_species)) {
   }
 }
 
-cl <- makeCluster(16)
+cl <- makeCluster(15)
 
 # Execute the model estimates
 parLapply(cl, outfiles, source)
