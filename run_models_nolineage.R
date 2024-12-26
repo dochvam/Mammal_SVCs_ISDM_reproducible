@@ -24,10 +24,6 @@ source("setup_code/define_fundamentals_nolineage.R")
 # Retrieve the list of species
 target_species <- taxon_key$common_name_clean
 
-
-# Retrieve the list of species
-target_species <- taxon_key$common_name_clean
-
 result_files <- list.files("intermediate/integration_results/",
                            pattern = "_noLineage",
                            full.names = TRUE)
@@ -59,7 +55,7 @@ for (i in 1:length(target_species)) {
 if (length(result_files) == 0) {
   this_round <- 1
 } else {
-  this_round <- max(parse_number(result_files)) + 1
+  this_round <- max(parse_number(result_files), na.rm = TRUE) + 1
   res_df <- bind_rows(res_list) %>% 
     mutate(finished = (Rhat <= 1.1 & n.eff >= 100) | n.eff >= 300)
   
@@ -131,7 +127,7 @@ for (i in 1:length(target_species)) {
 
 write("============== New run ==============", file = "log.txt", append = TRUE)
 
-cl <- makeCluster(12)
+cl <- makeCluster(10)
 
 # Execute the model estimates
 parLapply(cl, outfiles, source)
