@@ -55,7 +55,9 @@ for (i in 1:length(target_species)) {
 if (length(result_files) == 0) {
   this_round <- 1
 } else {
-  this_round <- max(parse_number(result_files), na.rm = TRUE) + 1
+  this_round <- max(parse_number(substr(result_files,
+                                        nchar(result_files) - 25, 
+                                        nchar(result_files)))) + 1
   res_df <- bind_rows(res_list) %>% 
     mutate(finished = (Rhat <= 1.1 & n.eff >= 100) | n.eff >= 300)
   
@@ -92,13 +94,7 @@ target_species <- taxon_key$common_name_clean
 outfiles <- c()
 ct <- 0
 for (i in 1:length(target_species)) {
-  
-  # Output file name:
-  result_outfile <- paste0("intermediate/integration_results/final_", 
-                           target_species[i], "_joint_SVCs_main_noLineage_samples.RDS")
-  
-  if (!file.exists(result_outfile) || overwrite) {
-    
+  for (j in this_round:(this_round + 3)) {
     ct <- ct + 1
     this_outfile <- paste0("temp/source/script", ct, ".R")
     outfiles <- c(outfiles, this_outfile)
@@ -117,8 +113,8 @@ for (i in 1:length(target_species)) {
       spatial_model = "SVCs",
       ni = 20000, nb = 10000,
       nc = 2, nt = 2, nt2 = 10,
-      seed = ', seed_vec[this_round], ', subset_CT = 1,
-      subset_inat = 1, suffix = "_main_', this_round, '",
+      seed = ', seed_vec[j], ', subset_CT = 1,
+      subset_inat = 1, suffix = "_main_', j, '",
       overwrite = FALSE
     )
     '), file = this_outfile)
