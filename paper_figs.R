@@ -14,9 +14,14 @@
 library(tidyverse)
 library(coda)
 
-redo <- FALSE
+if (!dir.exists("res_combined_final")) dir.create("res_combined_final")
+if (!dir.exists("output")) dir.create("output")
+if (!dir.exists("output/density_rasters")) dir.create("output/density_rasters")
+species_to_exclude <- "mexican_flying_squirrel"
 
-species_to_exclude <- c()
+redo <- FALSE
+# 
+# species_to_exclude <- c()
 
 #### Produce summaries of SVC effects ####
 
@@ -44,45 +49,62 @@ pb <- progress::progress_bar$new(total = nrow(finished))
 for (i in 1:nrow(finished)) {
   pb$tick()
   this_results <- result_files[grep(finished$species[i], result_files)]
+  results_numbers <- parse_number(substr(this_results, nchar(this_results) - 30, nchar(this_results)))
   
-  temp <- lapply(this_results, function(x) {
-    thisres <- readRDS(x)
-    thisres$samples_list[[1]]$samples %>% as.list()
-  }) %>% 
-    do.call(what = c)
-  
+  # Handle spot-fix species separately, as they have only 1 chain per file
+  if (any(results_numbers > 1000)) {
+    this_results <- this_results[results_numbers > 1000]
+    temp <- lapply(this_results, function(x) {
+      thisres <- readRDS(x)
+      thisres$samples_list[[1]]$samples
+    })
+  } else {
+    temp <- lapply(this_results, function(x) {
+      thisres <- readRDS(x)
+      thisres$samples_list[[1]]$samples %>% as.list()
+    }) %>% 
+      do.call(what = c)
+  }
   temp <- mcmc.list(temp)
-  
-  summary_list[[i]] <- temp %>% 
-    MCMCvis::MCMCsummary() %>% 
+  saveRDS(temp, paste0("res_combined_final/", finished$species[i], "_final_res.RDS"))
+
+  summary_list[[i]] <- temp %>%
+    MCMCvis::MCMCsummary() %>%
     mutate(species = target_species[i])
   summary_list[[i]]$param <- rownames(summary_list[[i]])
   rownames(summary_list[[i]]) <- NULL
-  
-  write_csv(summary_list[[i]], paste0("summary_final/", finished$species[i], 
+
+  write_csv(summary_list[[i]], paste0("summary_final/", finished$species[i],
                                       "_final_summary1.csv"))
-  
+
   finished$rhat[i] <- summary_list[[i]]$Rhat[summary_list[[i]]$param == "logDens"]
   finished$n.eff[i] <- summary_list[[i]]$n.eff[summary_list[[i]]$param == "logDens"]
-  
-  this_samples2 <- lapply(this_results, function(x) {
-    thisres <- readRDS(x)
-    thisres$samples_list[[1]]$samples2 %>% as.list()
-  }) %>%
-    do.call(what = c)
-  
+
+
+  if (any(results_numbers > 1000)) {
+    this_samples2 <- lapply(this_results, function(x) {
+      thisres <- readRDS(x)
+      thisres$samples_list[[1]]$samples2
+    })
+  } else {
+    this_samples2 <- lapply(this_results, function(x) {
+      thisres <- readRDS(x)
+      thisres$samples_list[[1]]$samples2 %>% as.list()
+    }) %>%
+      do.call(what = c)
+  }
   this_samples2 <- mcmc.list(this_samples2)
   this_summary2 <- this_samples2 %>%
     MCMCvis::MCMCsummary(
       Rhat = F, n.eff = F
     ) %>%
     mutate(species = target_species[i])
-  
+
   this_summary2$param <- rownames(this_summary2)
   rownames(this_summary2) <- NULL
-  
-  this_summary2 %>% 
-    filter(grepl("lambda_beta", param)) %>% 
+
+  this_summary2 %>%
+    filter(grepl("lambda_beta", param)) %>%
     write_csv(paste0("lambda_beta_results/", finished$species[i], "_lambda_beta_summary.csv"))
 }
 write_csv(finished, "nolineage_finished.csv")
@@ -117,41 +139,42 @@ for (i in 1:nrow(finished_lineage)) {
     do.call(what = c)
   
   temp <- mcmc.list(temp)
-
-  summary_list[[i]] <- temp %>% 
-    MCMCvis::MCMCsummary() %>% 
-    mutate(species = target_species[i])
-  summary_list[[i]]$param <- rownames(summary_list[[i]])
-  rownames(summary_list[[i]]) <- NULL
-  
-  write_csv(summary_list[[i]], paste0("summary_final/", finished_lineage$species[i], 
-                                      "_final_summary1_lineage.csv"))
-  
-  finished_lineage$rhat[i] <- 
-    summary_list[[i]]$Rhat[summary_list[[i]]$param == "logDens"]
-  finished_lineage$n.eff[i] <- 
-    summary_list[[i]]$n.eff[summary_list[[i]]$param == "logDens"]
-  
-  this_samples2 <- lapply(this_results, function(x) {
-    thisres <- readRDS(x)
-    thisres$samples_list[[1]]$samples2 %>% as.list()
-  }) %>%
-    do.call(what = c)
-    
-  this_samples2 <- mcmc.list(this_samples2)
-  this_summary2 <- this_samples2 %>%
-    MCMCvis::MCMCsummary(
-      Rhat = F, n.eff = F
-    ) %>%
-    mutate(species = target_species[i])
-  
-  this_summary2$param <- rownames(this_summary2)
-  rownames(this_summary2) <- NULL
-  
-  this_summary2 %>% 
-    filter(grepl("lambda_beta", param)) %>% 
-    mutate(type = "lineage") %>% 
-    write_csv(paste0("lambda_beta_results/", finished_lineage$species[i], "_lambda_beta_summary_lineage.csv"))  
+  saveRDS(temp, paste0("res_combined_final/", finished_lineage$species[i], "_final_res_lineage.RDS"))
+  # 
+  # summary_list[[i]] <- temp %>% 
+  #   MCMCvis::MCMCsummary() %>% 
+  #   mutate(species = target_species[i])
+  # summary_list[[i]]$param <- rownames(summary_list[[i]])
+  # rownames(summary_list[[i]]) <- NULL
+  # 
+  # write_csv(summary_list[[i]], paste0("summary_final/", finished_lineage$species[i], 
+  #                                     "_final_summary1_lineage.csv"))
+  # 
+  # finished_lineage$rhat[i] <- 
+  #   summary_list[[i]]$Rhat[summary_list[[i]]$param == "logDens"]
+  # finished_lineage$n.eff[i] <- 
+  #   summary_list[[i]]$n.eff[summary_list[[i]]$param == "logDens"]
+  # 
+  # this_samples2 <- lapply(this_results, function(x) {
+  #   thisres <- readRDS(x)
+  #   thisres$samples_list[[1]]$samples2 %>% as.list()
+  # }) %>%
+  #   do.call(what = c)
+  #   
+  # this_samples2 <- mcmc.list(this_samples2)
+  # this_summary2 <- this_samples2 %>%
+  #   MCMCvis::MCMCsummary(
+  #     Rhat = F, n.eff = F
+  #   ) %>%
+  #   mutate(species = target_species[i])
+  # 
+  # this_summary2$param <- rownames(this_summary2)
+  # rownames(this_summary2) <- NULL
+  # 
+  # this_summary2 %>% 
+  #   filter(grepl("lambda_beta", param)) %>% 
+  #   mutate(type = "lineage") %>% 
+  #   write_csv(paste0("lambda_beta_results/", finished_lineage$species[i], "_lambda_beta_summary_lineage.csv"))  
 }
 
 
@@ -225,7 +248,7 @@ occ_covars_clean <- occ_covars %>%
   gsub(pattern = "_scaled", replacement = "")
 
 for (i in 1:length(target_species)) {
-  input_file <- paste0("integration_results/", target_species[i], "_final_res.RDS")
+  input_file <- paste0("res_combined_final/", target_species[i], "_final_res.RDS")
   
   if (file.exists(input_file)) {
     temp <- readRDS(input_file)
@@ -327,6 +350,7 @@ temp <- final_results %>%
   filter(supported) %>% 
   count(species)
 mean(temp$n)
+sum(temp$n > 0)
 
 
 #### SVC covariate plots ####
@@ -377,7 +401,7 @@ ggsave(theta_plot, filename = "paper_figs/theta1_plot.jpg",
 lambda_beta_files <- data.frame(
   fn = list.files("lambda_beta_results/", full.names = TRUE)
 ) %>% 
-  filter(!species %in% species_to_exclude) %>% 
+  filter(!grepl(species_to_exclude, fn)) %>% 
   mutate(lin = grepl("_lineage", fn)) %>% 
   mutate(fn_clean = gsub("_lineage", "", fn)) %>% 
   arrange(-lin) %>% 
@@ -409,6 +433,7 @@ qdiff_df <- lambda_beta_df_all %>%
             q90 = quantile(mean, prob = 0.9),
             qdiff = q90 - q10, .groups = "drop")
 quantile(qdiff_df$qdiff, probs = c(0.1, 0.5, 0.9))
+exp(quantile(qdiff_df$qdiff, probs = c(0.5)))
 
 
 sign_flip_df <- lambda_beta_df_all %>% 
@@ -458,6 +483,10 @@ parname_df <- data.frame(
 )
 lambda_beta_df <- lambda_beta_df_all %>% 
   mutate(scale4_grid_ID = parse_number(param))
+
+
+cell_coords <- as.data.frame(continental_grid_scale4, xy = TRUE) %>% 
+  rename(scale4_grid_ID = lyr.1)
 
 # Average covar. values by S2 grid cell
 covar_values_byS2 <- covar_values %>%
@@ -541,17 +570,157 @@ gam_summary_df %>%
   quantile(probs = c(0.1, 0.5, 0.9))
 
 
-#### Finally: produce the predicted intensity rasters ####
+#### Produce the predicted intensity rasters ####
+# These are slow so I run them in parallel
+
 library(coda)
 library(nimble)
+library(parallel)
 source("setup_code/define_fundamentals_nolineage.R")
 source("main_code_nolineage/vis_fn.R")
+source("main_code_nolineage/main_data_prep.R")
+
+cl <- makeCluster(4)
+
+ignored <- clusterEvalQ(cl, {
+  library(coda)
+  library(nimble)
+  source("setup_code/define_fundamentals_nolineage.R")
+  source("main_code_nolineage/vis_fn.R")
+  source("main_code_nolineage/main_data_prep.R")
+  continental_grid_scale2 <- rast("intermediate/continental_grid_scale2.grd")
+  combined_land <- vect("intermediate/NAm_spatial.shp")
+})
 
 target_species <- taxon_key$common_name_clean
-target_species <- target_species[!target_species %in% species_to_exclude]
+target_species <- target_species[target_species != "mexican_flying_squirrel"]
 
-for (i in 1:length(target_species)) {
-  writeLines(paste0(i, "..."))
-  plot_spatpred_iSDM(target_species[i], thin = 20)
+# Remove the ones we've already done
+finished_specs <- list.files("plots/isdm_maps_nolineage/", pattern = ".jpg")
+target_species <- target_species[!target_species %in% gsub(".jpg", "", finished_specs)]
+
+res <- parLapply(cl, target_species, plot_spatpred_iSDM, nsamp = 250)
+
+# for (i in 1:length(target_species)) {
+#   writeLines(paste0(i, "..."))
+#   plot_spatpred_iSDM(target_species[i], nsamp = 200)
+# }
+
+all_rasters_mean <- list.files("output/density_rasters/", full.names = TRUE,
+                               pattern = "_mean.grd$") %>% 
+  sort()
+all_rasters_sd <- list.files("output/density_rasters/", full.names = TRUE,
+                             pattern = "_sd.grd$") %>% 
+  sort()
+
+mean_names <- substr(all_rasters_mean, 24, nchar(all_rasters_mean) - 4) %>% 
+  gsub(pattern = "_dens", replacement = "_relative_dens")
+sd_names   <- substr(all_rasters_sd, 24, nchar(all_rasters_sd) - 4) %>% 
+  gsub(pattern = "_dens", replacement = "_relative_dens")
+
+raster_brick <- rast(c(all_rasters_mean, all_rasters_sd))
+names(raster_brick) <- c(mean_names, sd_names)
+writeRaster(raster_brick, "relative_density_predictions_all.tif",
+            overwrite = TRUE)
+
+
+
+
+#### Get summaries of data actually used in the model #### 
+
+### Lineage data summary 
+
+source("setup_code/define_fundamentals.R")
+source("main_code_lineage/model_fn.R")
+source("main_code_lineage/main_data_prep.R")
+
+data_summary_df_lin <- taxon_key %>% 
+  select(species, sci_name) %>% 
+  mutate(nsite = NA, nrep_10 = NA, nrep_50 = NA, nrep_90 = NA,
+         ndet = NA, iNat_ct = NA, lineage = TRUE)
+
+for (i in 1:nrow(taxon_key)) {
+  this_data <- fit_integrated_model_with_CV(
+    nfolds = 0               ,
+    inat_disttype = "NB",
+    modtype = "joint",
+    species = taxon_key$common_name_clean[i], 
+    spatial_model = "SVCs",
+    ni = 20000, nb = 10000,
+    nc = 2, nt = 2, nt2 = 10,
+    seed = 1, subset_CT = 1,
+    subset_inat = 1, suffix = "data_summary",
+    overwrite = FALSE, return_data_summary = TRUE
+  )
+  
+  
+  nsite <- this_data$constants$ncameras_holdout + this_data$constants$ncameras_indat
+  ndet  <- sum(this_data$data$y) + sum(this_data$data$y_holdout)
+  nvisit_per_site <- c(this_data$constants$end - this_data$constants$start + 1,
+                       this_data$constants$end_holdout - 
+                                         this_data$constants$start_holdout + 1)
+  qtl <- quantile(nvisit_per_site, c(0.1, 0.5, 0.9))
+  
+  data_summary_df_lin$nsite[i] <- nsite
+  data_summary_df_lin$ndet[i] <- ndet
+  data_summary_df_lin$nrep_10[i] <- as.numeric(qtl[1])
+  data_summary_df_lin$nrep_50[i] <- as.numeric(qtl[2])
+  data_summary_df_lin$nrep_90[i] <- as.numeric(qtl[3])
+  
+  data_summary_df_lin$iNat_ct[i] <- sum(grid_counts[[taxon_key$common_name_clean[i]]])
 }
+
+### No-lineage data summary 
+
+source("setup_code/define_fundamentals_nolineage.R")
+source("main_code_nolineage/model_fn.R")
+source("main_code_nolineage/main_data_prep.R")
+
+data_summary_df_nolin <- taxon_key %>% 
+  select(species, sci_name) %>% 
+  mutate(nsite = NA, nrep_10 = NA, nrep_50 = NA, nrep_90 = NA,
+         ndet = NA, iNat_ct = NA, lineage = FALSE)
+
+# Non-lineages
+for (i in 1:nrow(taxon_key)) {
+  this_data <- fit_integrated_model_with_CV(
+    nfolds = 0               ,
+    inat_disttype = "NB",
+    modtype = "joint",
+    species = taxon_key$common_name_clean[i], 
+    spatial_model = "SVCs",
+    ni = 20000, nb = 10000,
+    nc = 2, nt = 2, nt2 = 10,
+    seed = 1, subset_CT = 1,
+    subset_inat = 1, suffix = "data_summary",
+    overwrite = FALSE, return_data_summary = TRUE
+  )
+  
+  
+  nsite <- this_data$constants$ncameras_holdout + this_data$constants$ncameras_indat
+  ndet  <- sum(this_data$data$y) + sum(this_data$data$y_holdout)
+  nvisit_per_site <- c(this_data$constants$end - this_data$constants$start + 1,
+                       this_data$constants$end_holdout - 
+                                         this_data$constants$start_holdout + 1)
+  qtl <- quantile(nvisit_per_site, c(0.1, 0.5, 0.9))
+  
+  data_summary_df_nolin$nsite[i] <- nsite
+  data_summary_df_nolin$ndet[i] <- ndet
+  data_summary_df_nolin$nrep_10[i] <- as.numeric(qtl[1])
+  data_summary_df_nolin$nrep_50[i] <- as.numeric(qtl[2])
+  data_summary_df_nolin$nrep_90[i] <- as.numeric(qtl[3])
+  
+  data_summary_df_nolin$iNat_ct[i] <- sum(grid_counts[[taxon_key$common_name_clean[i]]])
+}
+
+
+data_summary_df <- bind_rows(data_summary_df_lin, data_summary_df_nolin) %>% 
+  filter(!duplicated(species)) %>% 
+  mutate(nrep = paste0(nrep_50, " (", nrep_10, "-", nrep_90, ")"),
+         has_lineage = ifelse(lineage, "Yes", ""),
+         species = str_to_sentence(species)) %>% 
+  arrange(species) %>% 
+  select(species, sci_name, nsite, nrep, ndet, iNat_ct, has_lineage) %>% 
+  write_csv("intermediate/data_summary.csv")
+
 

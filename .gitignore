@@ -6,3 +6,11 @@ log.txt
 summary_final
 plots
 lambda_beta_results
+run_models_nolineage_spotfixes.R
+output
+paper_figs
+nolineage_finished.csv
+svc_estimates.csv
+res_combined_final
+Rplots.pdf
+relative_density_predictions_all.tif

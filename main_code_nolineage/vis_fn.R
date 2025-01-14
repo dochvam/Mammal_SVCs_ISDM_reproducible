@@ -17,7 +17,7 @@ summarize_conf_by_region <- function(df) {
     )
 }
 
-generate_spatpred_iSDM <- function(res, species) {
+generate_spatpred_iSDM <- function(res, species, thin = 1) {
   
   scaling_factors <- res$scaling_factors
   #get_scaling_factors(species, seed = 0159876, subset = 1)
@@ -110,6 +110,13 @@ generate_spatpred_iSDM <- function(res, species) {
   samples_spatmag <- samples_spatmag[
     1:nrow(samples_betas) * (nrow(samples_spatmag) / nrow(samples_betas))
   ]
+  
+  
+  # Thin everything
+  samples_intercept <- samples_intercept[thin * 1:(length(samples_intercept) / thin)]
+  samples_spatmag <- samples_spatmag[thin * 1:(length(samples_spatmag) / thin)]
+  samples_betas <- samples_betas[thin * 1:(nrow(samples_betas) / thin), ]
+  samples_spat_ranef <- samples_spat_ranef[thin * 1:(nrow(samples_spat_ranef) / thin), ]
   
   stopifnot(nrow(samples_intercept) == nrow(samples_betas))
   
@@ -504,41 +511,123 @@ plot_one_joint <- function(result3, species, thin = 50) {
 }
 
 
-plot_spatpred_iSDM <- function(res, species) {
+plot_spatpred_iSDM <- function(species, lineage = FALSE, nsamp = NULL) {
   if (!exists("grid_translator_wspec")) source("main_code_nolineage/main_data_prep.R")
-  covar_values_scaled_Joint <- generate_spatpred_iSDM(res, species) %>% 
+  
+  result_files <- list.files("intermediate/integration_results/",
+                             pattern = species, full.names = TRUE)
+  result_files <- result_files[!grepl("NOSVCS", result_files)]
+  
+  if (lineage) {
+    result_files <- result_files[grepl("_lineage", result_files)]
+    stop("Not set up to handle lineage.")
+  } else {
+    result_files <- result_files[grepl("noLineage", result_files)]
+  }
+  
+  results_numbers <- parse_number(substr(result_files, nchar(result_files) - 30, nchar(result_files)))
+  
+  if (length(result_files) > 1) {
+    if (any(results_numbers > 1000)) {
+      result_files <- result_files[results_numbers > 1000]
+      samples1 <- lapply(result_files, function(x) {
+        thisres <- readRDS(x)
+        thisres$samples_list[[1]]$samples
+      }) %>% mcmc.list()
+      samples2 <- lapply(result_files, function(x) {
+        thisres <- readRDS(x)
+        thisres$samples_list[[1]]$samples2
+      }) %>% mcmc.list()
+    } else {
+      samples1 <- lapply(result_files, function(x) {
+        thisres <- readRDS(x)
+        thisres$samples_list[[1]]$samples %>% mcmc.list()
+      }) %>% 
+        do.call(what = c) %>% 
+        mcmc.list()
+      samples2 <- lapply(result_files, function(x) {
+        thisres <- readRDS(x)
+        thisres$samples_list[[1]]$samples2 %>% mcmc.list()
+      }) %>% 
+        do.call(what = c) %>% 
+        mcmc.list()
+    }
+  } else {
+    temp <- readRDS(result_files)
+    samples1 <- temp$samples_list[[1]]$samples
+    samples2 <- temp$samples_list[[1]]$samples2
+  }
+  
+  res_one <- readRDS(result_files[1])
+  
+  res <- list(
+    scaling_factors = res_one$scaling_factors,
+    samples_list = list(list(
+      samples = samples1,
+      samples2 = samples2
+    ))
+  )
+  
+  if (is.null(nsamp)) {
+    thin_new <- 1
+  } else {
+    nchains   <- length(res$samples_list[[1]]$samples2)
+    nsamp_tot <- nrow(res$samples_list[[1]]$samples2[[1]]) * nchains
+    thin_new <- ceiling(nsamp_tot / nsamp)
+    if (thin_new <= 0) thin_new <- 1
+  }
+  
+  covar_values_scaled_Joint <- generate_spatpred_iSDM(res, species, thin = thin_new) %>% 
     filter(!is.na(cloglog_occ_mean))
   
-  occ_mean_raster <- continental_grid_scale2
+  intensity_raster <- continental_grid_scale2
   range_cells <- which(terra::values(continental_grid_scale2) %in% covar_values_scaled_Joint$grid_cell)
   other_cells <- which(!terra::values(continental_grid_scale2) %in% covar_values_scaled_Joint$grid_cell &
-                         !is.na(terra::values(occ_mean_raster)))
+                         !is.na(terra::values(intensity_raster)))
   
   
-  terra::values(occ_mean_raster)[!is.na(terra::values(occ_mean_raster))] <- 0
-  terra::values(occ_mean_raster)[range_cells] <- icloglog(covar_values_scaled_Joint$cloglog_occ_mean)
+  terra::values(intensity_raster)[!is.na(terra::values(intensity_raster))] <- NA
+  terra::values(intensity_raster)[range_cells] <- covar_values_scaled_Joint$cloglog_occ_mean
+  
+  writeRaster(overwrite = TRUE,
+              intensity_raster, filename = paste0(
+                "output/density_rasters/", species, "_density_noLineage_mean.grd"
+              ))
   
   p1 <- ggplot() +
-    geom_spatraster(data = occ_mean_raster, maxcell = 1e8,
+    geom_spatvector(data = combined_land, fill = NA) +
+    geom_spatraster(data = intensity_raster, maxcell = 1e8,
                     na.rm = T) +
-    scale_fill_viridis_c("Occu.", na.value = NA, limits = c(0, 1)) +
-    ggtitle(paste0("Occupancy"))
+    scale_fill_viridis_c("", na.value = NA) +
+    ggtitle(paste0("Log intensity")) +
+    theme_void()
   
-  sd_raster <- occ_mean_raster
-  terra::values(sd_raster)[!is.na(terra::values(continental_grid_scale2))] <- 0
+  sd_raster <- intensity_raster
+  terra::values(sd_raster)[!is.na(terra::values(continental_grid_scale2))] <- NA
   terra::values(sd_raster)[range_cells] <- covar_values_scaled_Joint$cloglog_occ_sd
   
-  # terra::values(sd_raster)[terra::values(sd_raster) > sd_UB] <- sd_UB
+  writeRaster(overwrite = TRUE,
+              sd_raster, filename = paste0(
+                "output/density_rasters/", species, "_density_noLineage_sd.grd"
+              ))
+  
   
   p2 <- ggplot() +
+    geom_spatvector(data = combined_land, fill = NA) +
     geom_spatraster(data = sd_raster, maxcell = 1e8,
                     na.rm = T) +
-    scale_fill_viridis_c("SD", na.value = NA) +
-    ggtitle(paste0("Uncertainty in log intensity"))
+    scale_fill_viridis_c("", na.value = NA) +
+    ggtitle(paste0("Uncertainty in log intensity")) +
+    theme_void()
   
   p_arr <- gridExtra::arrangeGrob(p1, p2, nrow = 1, top = species)
   
-  ggsave(paste0("plots/isdm_maps_nolineage/", species, ".jpg"), p_arr, width = 12, height = 6)
+  if (lineage) {
+    ggsave(paste0("plots/isdm_maps/", species, ".jpg"), p_arr, width = 12, height = 6)
+    
+  } else {
+    ggsave(paste0("plots/isdm_maps_nolineage/", species, ".jpg"), p_arr, width = 12, height = 6)
+  }
 }
 
 plot_spatpred_all <- function(result3, result4, species, suffix, 
@@ -1158,7 +1247,7 @@ get_hypothesis_summary_expanded <- function(temp) {
 
 get_hypothesis_summary_concise <- function(temp) {
   
-  samples_mtx <- temp$samples_list[[1]]$samples %>% 
+  samples_mtx <- temp %>% 
     lapply(as.matrix) %>% 
     do.call(what = rbind) %>% 
     as.data.frame() %>% 
@@ -1180,6 +1269,31 @@ get_hypothesis_summary_concise <- function(temp) {
   return(frac_hypothesis)
 }
 
+get_hypothesis_summary_concise_lineage <- function(temp) {
+  
+  samples_mtx <- temp %>% 
+    lapply(as.matrix) %>% 
+    do.call(what = rbind) %>% 
+    as.data.frame() %>% 
+    select(all_of(c(indic_vars, paste0("lin_gamma[", 1:length(occ_covars), "]"))))
+  vars <- colnames(samples_mtx)
+  
+  frac_hypothesis <- matrix(NA, nrow = length(occ_covars), 
+                            ncol = 3)
+  
+  for (i in 1:nrow(frac_hypothesis)) {
+    this_indvar_CAR <- which(vars == paste0("CAR_gamma[", i, "]"))
+    this_indvar_lin <- which(vars == paste0("lin_gamma[", i, "]"))
+    this_indvar_eco <- which(vars == paste0("eco_gamma[", i, "]"))
+    
+    frac_hypothesis[i, 1] <- mean(samples_mtx[, this_indvar_lin] == 1)
+    frac_hypothesis[i, 2] <- mean(samples_mtx[, this_indvar_eco] == 1)
+    frac_hypothesis[i, 3] <- mean(samples_mtx[, this_indvar_CAR] == 1)
+    
+  }
+  
+  return(frac_hypothesis)
+}
 
 
 get_var_samples <- function(temp) {

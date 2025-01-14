@@ -10,3 +10,5 @@ inat_cts_lineage.csv
 inat_cts_nolineage.csv
 grid_translator_wspecs_lineage.csv
 grid_translator_wspecs_nolineage.csv
+data_summary.csv
+final_results_inclprob.csv

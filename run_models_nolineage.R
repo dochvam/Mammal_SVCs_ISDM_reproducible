@@ -63,7 +63,7 @@ if (length(result_files) == 0) {
   
   target_species <- target_species[!target_species %in% res_df$species[res_df$finished]]
 }
-
+target_species <- target_species[target_species != "mexican_flying_squirrel"]
 
 outfiles <- c()
 ct <- 0
@@ -94,7 +94,7 @@ target_species <- taxon_key$common_name_clean
 outfiles <- c()
 ct <- 0
 for (i in 1:length(target_species)) {
-  for (j in this_round:(this_round + 3)) {
+  for (j in this_round:(this_round + 4)) {
     ct <- ct + 1
     this_outfile <- paste0("temp/source/script", ct, ".R")
     outfiles <- c(outfiles, this_outfile)

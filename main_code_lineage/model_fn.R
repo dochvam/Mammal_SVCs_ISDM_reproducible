@@ -286,7 +286,8 @@ fit_integrated_model_with_CV <- function(nfolds,
                                          subset_inat = 1,
                                          suffix = "",
                                          debug_transl = FALSE,
-                                         overwrite = FALSE
+                                         overwrite = FALSE,
+                                         return_data_summary = FALSE
 ) {
   
   outfile <- paste0("intermediate/integration_results/final_", 
@@ -324,7 +325,7 @@ fit_integrated_model_with_CV <- function(nfolds,
   model_code <- joint_model_SVCs_asRanefs
   
   ### Load in and format the data
-  source("main_code_lineage/main_data_prep.R")
+  if (!return_data_summary) source("main_code_lineage/main_data_prep.R")
   set.seed(seed)
 
   # Check that species / modtype is valid
@@ -807,6 +808,12 @@ fit_integrated_model_with_CV <- function(nfolds,
       wdat_holdout = as.matrix(det_x_holdout[, det_covars])
     )
     
+    if (return_data_summary) {
+      return(list(
+        constants = constants_list,
+        data = data_list
+      ))
+    }
     
     ##### Build and compile the model #####
     build_start_time <- Sys.time()
